@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Booking {
@@ -16,6 +17,7 @@ public class Booking {
     private String userId;
     @XmlElement
     private String bookingId;
+    @XmlElement
     private Date created;
     @XmlElement
     private String type;
@@ -23,6 +25,8 @@ public class Booking {
     private int quantity;
     @XmlElement
     private double price;
+    private Flight flight;
+    private User user;
 
     public Booking() {
         this.bookingId = UUID.randomUUID().toString().substring(0, 8);
@@ -94,5 +98,20 @@ public class Booking {
         this.price = price;
     }
 
-    
+    public Flight getFlight() {
+        return flight;
+    }
+
+    public void setFlight(Flight flight) {
+        this.flight = flight;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
 }

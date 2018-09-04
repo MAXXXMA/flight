@@ -10,6 +10,8 @@ import dao.FlightDao;
 import dao.UserDao;
 import dto.Booking;
 import dto.Flight;
+import dto.Flights;
+import dto.Bookings;
 import dto.User;
 import dto.Users;
 import java.text.ParseException;
@@ -38,6 +40,10 @@ public class BootstrapData {
         FlightDao flightDao = new FlightDao();
         BookingDao bookingDao = new BookingDao();
 
+        userDao.save(new Users());
+        flightDao.save(new Flights());
+        bookingDao.save(new Bookings());
+        
         List<User> users = new ArrayList<User>();
         users.add(new User("user1@uts.com", "user1", "Tom"));
         users.add(new User("user2@uts.com", "user2", "Bob"));

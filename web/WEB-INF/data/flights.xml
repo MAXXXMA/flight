@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <flights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flights.xsd">
     <flight>
-        <flightId>97ae6ffa</flightId>
+        <flightId>3b05935e</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
@@ -13,7 +13,7 @@
         <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>991268ee</flightId>
+        <flightId>563d9dce</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
@@ -25,7 +25,7 @@
         <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>50cb3eac</flightId>
+        <flightId>6a1ac8d8</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
@@ -37,7 +37,7 @@
         <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>cd345ae0</flightId>
+        <flightId>9f273b0b</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
@@ -49,7 +49,7 @@
         <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>872401b3</flightId>
+        <flightId>da89be5e</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
@@ -61,7 +61,7 @@
         <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>85ba043b</flightId>
+        <flightId>90484a3d</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
@@ -73,7 +73,7 @@
         <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>08b8a33e</flightId>
+        <flightId>040a68d0</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
@@ -85,7 +85,7 @@
         <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>ebbc4021</flightId>
+        <flightId>58477c36</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
@@ -97,7 +97,7 @@
         <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>e30d463c</flightId>
+        <flightId>56a43b26</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
@@ -109,7 +109,7 @@
         <firstClassSeatsPrice>149.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>9023bbe8</flightId>
+        <flightId>1f3f2f05</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
@@ -121,7 +121,7 @@
         <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>f87919e6</flightId>
+        <flightId>66fa3d58</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
@@ -133,439 +133,7 @@
         <firstClassSeatsPrice>499.0</firstClassSeatsPrice>
     </flight>
     <flight>
-        <flightId>97f29f39</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>129.0</seatPrice>
-        <firstClassSeatsPrice>449.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>85118a41</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-21T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>ccedfb1c</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>96122ee3</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-22T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>85868ede</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>4a675245</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>39cb7a27</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>408f47a0</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>71759efe</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>f55068f6</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-21T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>89.0</seatPrice>
-        <firstClassSeatsPrice>149.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>9b4b9686</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>f6934aef</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-22T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>139.0</seatPrice>
-        <firstClassSeatsPrice>499.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>e1b3e134</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>129.0</seatPrice>
-        <firstClassSeatsPrice>449.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>248e5307</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-21T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>0e0ed2a3</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>08d27037</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-22T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>b248ecb8</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>74898f26</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>2f37446a</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>cb1cbfad</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>e4d05543</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>6b2bd5a8</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-21T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>89.0</seatPrice>
-        <firstClassSeatsPrice>149.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>e11b0cc0</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>17cd08fe</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-22T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>139.0</seatPrice>
-        <firstClassSeatsPrice>499.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>3df1852f</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>129.0</seatPrice>
-        <firstClassSeatsPrice>449.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>02ee39d7</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-21T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>603dce6b</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>3ce64cb3</flightId>
-        <flightNumber>QF101</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Melbourne</toCity>
-        <departureDate>2018-09-22T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T10:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>1062cca8</flightId>
-        <flightNumber>QF102</flightNumber>
-        <fromCity>Melbourne</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T15:00:00+10:00</arriveDate>
-        <seats>100</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>49.0</seatPrice>
-        <firstClassSeatsPrice>109.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>6cd2503d</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>79f7de1c</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>199.0</seatPrice>
-        <firstClassSeatsPrice>399.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>5593541c</flightId>
-        <flightNumber>QF201</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Cairns</toCity>
-        <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T17:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>86f0334e</flightId>
-        <flightNumber>QF202</flightNumber>
-        <fromCity>Cairns</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-22T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T21:00:00+10:00</arriveDate>
-        <seats>80</seats>
-        <firstClassSeats>10</firstClassSeats>
-        <seatPrice>249.0</seatPrice>
-        <firstClassSeatsPrice>599.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>f810c42f</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-21T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>89.0</seatPrice>
-        <firstClassSeatsPrice>149.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>35c29740</flightId>
-        <flightNumber>QF302</flightNumber>
-        <fromCity>Gold Coast</fromCity>
-        <toCity>Sydney</toCity>
-        <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T16:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>99.0</seatPrice>
-        <firstClassSeatsPrice>199.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>374c0b46</flightId>
-        <flightNumber>QF301</flightNumber>
-        <fromCity>Sydney</fromCity>
-        <toCity>Gold Coast</toCity>
-        <departureDate>2018-09-22T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T13:00:00+10:00</arriveDate>
-        <seats>60</seats>
-        <firstClassSeats>20</firstClassSeats>
-        <seatPrice>139.0</seatPrice>
-        <firstClassSeatsPrice>499.0</firstClassSeatsPrice>
-    </flight>
-    <flight>
-        <flightId>63a12b9e</flightId>
+        <flightId>40e5fbbe</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
