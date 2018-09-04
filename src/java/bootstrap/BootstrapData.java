@@ -74,15 +74,15 @@ public class BootstrapData {
         bookings.add(new Booking(flights.get(8).getFlightId(), users.get(0).getUserId(), toDate("2018-09-07 08:00:00"), "normal", 1, flights.get(8).getSeatPrice() * 2));
 
         for(User user: users) {
-            userDao.addUser(user);
+            userDao.add(user);
         }
 
         for(Flight flight: flights) {
-            flightDao.addFlight(flight);
+            flightDao.add(flight);
         }
 
         for(Booking booking: bookings) {
-            bookingDao.addBooking(booking);
+            bookingDao.add(booking);
         }
 
     }

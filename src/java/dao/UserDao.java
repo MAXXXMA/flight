@@ -7,9 +7,10 @@ public class UserDao extends BaseDao {
 
     /**
      * verify login
+     *
      * @param email
      * @param password
-     * @return 
+     * @return
      */
     public User getUserByLogin(String email, String password) {
         for (User u : getAll().getUsers()) {
@@ -20,11 +21,6 @@ public class UserDao extends BaseDao {
         return null;
     }
 
-    /**
-     * get user by username
-     * @param username
-     * @return 
-     */
     public User getUser(String userId) {
         for (User u : getAll().getUsers()) {
             if (u.getUserId().equals(userId)) {
@@ -33,11 +29,12 @@ public class UserDao extends BaseDao {
         }
         return null;
     }
-    
+
     /**
      * get user by email
+     *
      * @param email
-     * @return 
+     * @return
      */
     public User getUserByEmail(String email) {
         for (User u : getAll().getUsers()) {
@@ -50,17 +47,19 @@ public class UserDao extends BaseDao {
 
     /**
      * create new user and store in xml
-     * @param user 
+     *
+     * @param user
      */
-    public void addUser(User user) {
+    public void add(User user) {
         Users users = getAll();
         users.addUser(user);
         save(users);
     }
-    
+
     /**
      * get all users
-     * @return 
+     *
+     * @return
      */
     public Users getAll() {
         return (Users) this.get(Users.class);
