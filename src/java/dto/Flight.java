@@ -1,6 +1,7 @@
 package dto;
 
 import java.util.Date;
+import java.util.UUID;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -32,9 +33,12 @@ public class Flight {
     private double firstClassSeatsPrice;
 
     public Flight() {
+        this.flightId = UUID.randomUUID().toString().substring(0, 8);
     }
 
-    public Flight(String flightId, String flightNumber, String fromCity, String toCity, Date departureDate, Date arriveDate, int seats, int firstClassSeats, double seatPrice, double firstClassSeatsPrice) {
+    public Flight(String flightNumber, String fromCity, String toCity, Date departureDate, Date arriveDate, int seats, int firstClassSeats, double seatPrice, double firstClassSeatsPrice) {
+
+        this();
         this.flightId = flightId;
         this.flightNumber = flightNumber;
         this.fromCity = fromCity;

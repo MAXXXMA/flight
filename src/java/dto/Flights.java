@@ -13,29 +13,29 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Flights {
 
     @XmlElement(name = "flight")
-    private List<Flight> books;
+    private List<Flight> flights;
 
     public Flights() {
-        this.books = new ArrayList<Flight>();
+        this.flights = new ArrayList<Flight>();
     }
 
-    public Flights(List<Flight> books) {
-        this.books = books;
+    public Flights(List<Flight> flights) {
+        this.flights = flights;
     }
 
-    public List<Flight> getBooks() {
-        return books;
+    public List<Flight> getFlights() {
+        return flights;
     }
 
-    public void setBooks(List<Flight> books) {
-        this.books = books;
+    public void setFlights(List<Flight> flights) {
+        this.flights = flights;
     }
 
-    public void addBook(Flight p) {
-        this.books.add(p);
+    public void addFlight(Flight p) {
+        this.flights.add(p);
     }
     
     public int size() {
-        return this.books.size();
+        return this.flights.size();
     }
 }

@@ -15,7 +15,7 @@ public class User {
     @XmlElement
     private String password = "";
     @XmlElement
-    private String username = "";
+    private String name = "";
     @XmlElement
     private String userId = "";
 
@@ -23,11 +23,11 @@ public class User {
         this.userId = UUID.randomUUID().toString().substring(0, 8);
     }
 
-    public User(String email, String password, String username) {
+    public User(String email, String password, String name) {
         this();
         this.email = email;
         this.password = password;
-        this.username = username;
+        this.name = name;
     }
 
     public String getPassword() {
@@ -38,12 +38,12 @@ public class User {
         this.password = password;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String name) {
-        this.username = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {

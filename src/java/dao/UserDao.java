@@ -25,9 +25,9 @@ public class UserDao extends BaseDao {
      * @param username
      * @return 
      */
-    public User getUser(String username) {
+    public User getUser(String userId) {
         for (User u : getAll().getUsers()) {
-            if (u.getUsername().equals(username)) {
+            if (u.getUserId().equals(userId)) {
                 return u;
             }
         }
