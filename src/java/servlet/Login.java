@@ -5,6 +5,9 @@
  */
 package servlet;
 
+import dao.BaseDao;
+import dao.UserDao;
+import dto.User;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -26,6 +29,7 @@ public class Login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
         request.getRequestDispatcher("WEB-INF/jsp/login.jsp").forward(request, response);
     }
 
@@ -40,20 +44,19 @@ public class Login extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
         String email = request.getParameter("email");
         String password = request.getParameter("password");
 
-//        BookSoapService_Service locator = new BookSoapService_Service();
-//        BookSoapService bookSoapService = locator.getBookSoapServicePort();
-//
-//        User user = bookSoapService.login(email, password);
-//        if (user == null) {
-//            response.sendRedirect("Login?errorMsg=Invalid username or password");
-//            return;
-//        } else {
-//            request.getSession().setAttribute("user", user);
-//            response.sendRedirect("Index");
-//        }
+        UserDao userDao = new UserDao();
+        User user = userDao.getUserByLogin(email, password);        
+        if (user == null) {
+            response.sendRedirect("Login?errorMsg=Invalid email or password");
+            return;
+        } else {
+            request.getSession().setAttribute("user", user);
+            response.sendRedirect("Index");
+        }
     }
 
     /**

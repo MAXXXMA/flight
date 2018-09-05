@@ -13,6 +13,7 @@
     <body>
         <jsp:include page="header.jsp" />
         <div class="container">
+            <br>
             <h2 class="text-center my-3">Sign up</h2>
             <div class="row">
                 <form class="col-sm-4 offset-sm-4" method="post" onsubmit="return validate()">
@@ -34,9 +35,10 @@
                                                                class="form-control"></input>
                     </div>
                     <div class="form-group">
-                        <label>FUll name</label> <input name="name" class="form-control"
+                        <label>Full name</label> <input name="name" class="form-control"
                                                         id="name" required></input>
                     </div>
+                    <br>
 
                     <button class="btn btn-primary btn-block">Sign up</button>
                 </form>
@@ -45,15 +47,20 @@
 
         <script>
             function validate() {
-                var username = $('#username').val();
+                var email = $('#email').val();
+                var name = $('#name').val();
                 var password1 = $('#password1').val();
                 var password2 = $('#password2').val();
-                if (username == "") {
-                    alert("User name cannot be empty");
+                if (email == "") {
+                    alert("Email cannot be empty");
                     return false;
                 }
                 if (password1 != password2) {
                     alert("Confirm password does not match password");
+                    return false;
+                }
+                if (name == "") {
+                    alert("Name cannot be empty");
                     return false;
                 }
             }

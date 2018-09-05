@@ -5,6 +5,9 @@
  */
 package servlet;
 
+import dao.BaseDao;
+import dao.UserDao;
+import dto.User;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -12,6 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -44,6 +48,8 @@ public class SignUp extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+
         request.getRequestDispatcher("WEB-INF/jsp/signup.jsp").forward(request, response);
     }
 
@@ -58,6 +64,8 @@ public class SignUp extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+
         String password = request.getParameter("password");
         String password2 = request.getParameter("password2");
         String name = request.getParameter("name");
@@ -78,21 +86,18 @@ public class SignUp extends HttpServlet {
             return;
         }
 
-//        //        do sign up
-//        BookSoapService_Service locator = new BookSoapService_Service();
-//        BookSoapService bookSoapService = locator.getBookSoapServicePort();
-//
-//        try {
-//            User user = bookSoapService.signup(email, password, name);
-//            request.getSession().setAttribute("user", user);
-//            response.sendRedirect("Index");
-//        } catch (DuplicateEmailException_Exception ex) {
-//            response.sendRedirect("SignUp?errorMsg=Existing email");
-//            return;
-//        } catch (DuplicateUsernameException_Exception ex) {
-//            response.sendRedirect("SignUp?errorMsg=Existing username");
-//            return;
-//        }
+        UserDao userDao = new UserDao();
+        User existingUser = userDao.getUserByEmail(email);
+        if (existingUser!=null){
+            response.sendRedirect("SignUp?errorMsg=Email is already registeredÏ");
+            return;
+        }
+        
+        User user = new User(email, password, name);
+        userDao.add(user);
+        request.getSession().setAttribute("user", user);
+        response.sendRedirect("Index");
+
     }
 
     /**
