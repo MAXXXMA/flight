@@ -56,6 +56,10 @@
                 </div>
 
                 <div class="col-6">
+                    <c:if test="${not empty param.errorMsg}">
+                        <div class="alert alert-danger">${param.errorMsg}</div>
+                    </c:if>
+
                     <form action="BookFlight" method="post">
                         <input type="hidden" name="flightId" value="${flight.flightId}">
                         <div class="card mb-3">
@@ -66,6 +70,13 @@
                                 <div class="form-group">
                                     <label>Ticket Quantity</label>
                                     <input name="quantity" type="number" min="1" max="20" class="form-control" value="1" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Seat Type</label>
+                                    <select class="form-control" name="type">
+                                        <option value="economic">Economic</option>
+                                        <option valuve="firstClass">First class</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label>Credit card number</label>

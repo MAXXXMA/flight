@@ -2,7 +2,9 @@ package dao;
 
 import dto.Booking;
 import dto.Bookings;
+import dto.Flight;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class BookingDao extends BaseDao {
@@ -28,6 +30,21 @@ public class BookingDao extends BaseDao {
         Bookings bookings = getAll();
         bookings.addBooking(booking);
         save(bookings);
+    }
+
+    public void createBooking(String flightId, String userId, int quantity, String type) {
+        Flight flight = flightDao.getFlight(flightId);
+        double price = flight.getSeatPrice();
+        if (type.equals("firstClass")) {
+            price = flight.getFirstClassSeatsPrice();
+            flight.setFirstClassSeats(flight.getFirstClassSeats() - quantity);
+        } else {
+            flight.setSeats(flight.getSeats() - quantity);
+        }
+        Booking booking = new Booking(flightId, userId, new Date(), type, quantity, price * quantity);
+        add(booking);
+
+        flightDao.update(flight);
     }
 
     public List<Booking> getBookingsByUserId(String userId) {
