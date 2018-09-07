@@ -32,10 +32,10 @@ public class BookingDao extends BaseDao {
         save(bookings);
     }
 
-    public void createBooking(String flightId, String userId, int quantity, String type) {
+    public Booking createBooking(String flightId, String userId, int quantity, String type) {
         Flight flight = flightDao.getFlight(flightId);
         double price = flight.getSeatPrice();
-        if (type.equals("firstClass")) {
+        if (type.equals("First class")) {
             price = flight.getFirstClassSeatsPrice();
             flight.setFirstClassSeats(flight.getFirstClassSeats() - quantity);
         } else {
@@ -45,6 +45,7 @@ public class BookingDao extends BaseDao {
         add(booking);
 
         flightDao.update(flight);
+        return booking;
     }
 
     public List<Booking> getBookingsByUserId(String userId) {
@@ -62,7 +63,7 @@ public class BookingDao extends BaseDao {
         List<Booking> bookings = getAll().getBookings();
         for (int i = 0; i < bookings.size(); i++) {
             Booking f = bookings.get(i);
-            if (f.getFlightId().equals(bookingId)) {
+            if (f.getBookingId().equals(bookingId)) {
                 index = i;
                 break;
             }

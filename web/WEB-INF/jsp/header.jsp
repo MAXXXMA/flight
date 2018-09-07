@@ -40,7 +40,7 @@
         <ul class="navbar-nav ">
             <c:if test="${not empty sessionScope.user}">
                 <li class="nav-item"><span style="position:relative; top: 8px">Welcome ${sessionScope.user.name}</span></li>
-                <li class="nav-item"><a class="nav-link" href="ReservedBooks">My Itinerary</a></li>
+                <li class="nav-item"><a class="nav-link" href="MyBookings">My Booked Flights</a></li>
                 <li class="nav-item"><a class="nav-link" href="Logout">Logout</a></li>
                 </c:if>
 

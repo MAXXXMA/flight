@@ -74,8 +74,8 @@
                                 <div class="form-group">
                                     <label>Seat Type</label>
                                     <select class="form-control" name="type">
-                                        <option value="economic">Economic</option>
-                                        <option valuve="firstClass">First class</option>
+                                        <option value="Economic">Economic</option>
+                                        <option valuve="First class">First class</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
