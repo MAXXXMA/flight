@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <bookings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookings.xsd">
     <booking>
-        <flightId>3b05935e</flightId>
-        <userId>a51398f4</userId>
-        <bookingId>888bdba6</bookingId>
+        <flightId>254366c0</flightId>
+        <userId>690086b6</userId>
+        <bookingId>aa0958ba</bookingId>
         <created>2018-09-05T08:00:00+10:00</created>
         <type>normal</type>
         <quantity>2</quantity>
         <price>198.0</price>
     </booking>
     <booking>
-        <flightId>da89be5e</flightId>
-        <userId>a51398f4</userId>
-        <bookingId>23470fba</bookingId>
+        <flightId>d5712861</flightId>
+        <userId>690086b6</userId>
+        <bookingId>1297b400</bookingId>
         <created>2018-09-06T08:00:00+10:00</created>
         <type>normal</type>
         <quantity>1</quantity>
         <price>199.0</price>
     </booking>
     <booking>
-        <flightId>56a43b26</flightId>
-        <userId>a51398f4</userId>
-        <bookingId>4848535e</bookingId>
+        <flightId>c9ae99e6</flightId>
+        <userId>690086b6</userId>
+        <bookingId>5a5d58c2</bookingId>
         <created>2018-09-07T08:00:00+10:00</created>
         <type>normal</type>
         <quantity>1</quantity>

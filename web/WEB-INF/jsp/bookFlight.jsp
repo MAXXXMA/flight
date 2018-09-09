@@ -16,7 +16,7 @@
 
         <div class="container">
 
-            <h3 class="my-3 text-center">Congratulations, you have sucessfully booked ${booking.quantity} ${booking.type} tickets. your booking id is #${booking.bookingId}</h3>
+            <h3 class="my-3 text-center">Congratulations, you have successfully booked ${booking.quantity} ${booking.type} tickets. your booking id is #${booking.bookingId}</h3>
 
             <p class="text-center">Go to <a href="MyBookings">My Bookings</a> page to view all your bookings.</p>
 

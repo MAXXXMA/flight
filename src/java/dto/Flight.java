@@ -30,13 +30,13 @@ public class Flight {
     @XmlElement
     private double seatPrice;
     @XmlElement
-    private double firstClassSeatsPrice;
+    private double firstClassSeatPrice;
 
     public Flight() {
         this.flightId = UUID.randomUUID().toString().substring(0, 8);
     }
 
-    public Flight(String flightNumber, String fromCity, String toCity, Date departureDate, Date arriveDate, int seats, int firstClassSeats, double seatPrice, double firstClassSeatsPrice) {
+    public Flight(String flightNumber, String fromCity, String toCity, Date departureDate, Date arriveDate, int seats, int firstClassSeats, double seatPrice, double firstClassSeatPrice) {
 
         this();
         this.flightId = flightId;
@@ -48,7 +48,7 @@ public class Flight {
         this.seats = seats;
         this.firstClassSeats = firstClassSeats;
         this.seatPrice = seatPrice;
-        this.firstClassSeatsPrice = firstClassSeatsPrice;
+        this.firstClassSeatPrice = firstClassSeatPrice;
     }
 
     public String getFlightId() {
@@ -123,12 +123,12 @@ public class Flight {
         this.seatPrice = seatPrice;
     }
 
-    public double getFirstClassSeatsPrice() {
-        return firstClassSeatsPrice;
+    public double getfirstClassSeatPrice() {
+        return firstClassSeatPrice;
     }
 
-    public void setFirstClassSeatsPrice(double firstClassSeatsPrice) {
-        this.firstClassSeatsPrice = firstClassSeatsPrice;
+    public void setfirstClassSeatPrice(double firstClassSeatPrice) {
+        this.firstClassSeatPrice = firstClassSeatPrice;
     }
 
 }

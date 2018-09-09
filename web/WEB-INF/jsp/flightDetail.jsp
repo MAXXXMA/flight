@@ -49,7 +49,7 @@
                             </dl>
                             <dl class="row">
                                 <dt class="col-4">First class Seat Price</dt>
-                                <dd class="col-8">$ ${flight.firstClassSeatsPrice}</dd>
+                                <dd class="col-8">$ ${flight.firstClassSeatPrice}</dd>
                             </dl>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                         <div class="alert alert-danger">${param.errorMsg}</div>
                     </c:if>
 
-                    <form action="BookFlight" method="post">
+                    <form action="BookFlight" method="post" onsubmit="return validateForm()">
                         <input type="hidden" name="flightId" value="${flight.flightId}">
                         <div class="card mb-3">
                             <div class="card-header bg-info text-white">
@@ -74,13 +74,17 @@
                                 <div class="form-group">
                                     <label>Seat Type</label>
                                     <select class="form-control" name="type">
-                                        <option value="Economic">Economic</option>
-                                        <option valuve="First class">First class</option>
+                                        <option value="Economic">Economic ($ ${flight.seatPrice})</option>
+                                        <option valuve="First class">First class ($ ${flight.firstClassSeatPrice})</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label>Credit card number</label>
                                     <input name="creditcard" type="text" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Total price</label>
+                                    <p><span id="total-price"></span></p>
                                 </div>
                                 <button type="submit" class="btn btn-info">Book Now</button>
                             </div>
@@ -89,5 +93,42 @@
                 </div>
             </div>
         </div>
+        <script>
+            var seatPrice = parseFloat('${flight.seatPrice}');
+            var firstClassSeatPrice = parseFloat('${flight.firstClassSeatPrice}');
+            function updatePrice() {
+                var quantity = $('input[name="quantity"]').val();
+                var price = 0;
+                if ($('select').val() == 'Economic') {
+                    price = seatPrice;
+                } else {
+                    price = firstClassSeatPrice;
+                }
+                var totalPrice = quantity * price;
+                $('#total-price').text('$ ' + totalPrice.toFixed(2));
+            }
+            
+            function validateCreditCard() {
+                var cc = $('input[name="creditcard"]').val();
+                if(cc.match(/\d{16}/)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            
+            function validateForm() {
+                if (!validateCreditCard()) {
+                    alert('Credit card need to be 16 digits');
+                    return false;
+                }
+                
+                return true;
+            }
+            
+            $('input, select').change(updatePrice);
+            
+            updatePrice();
+        </script>
     </body>
 </html>

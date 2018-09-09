@@ -24,23 +24,38 @@
                         <div class="card-header">
                             Search Flight
                         </div>
-                        <form class="card-body" action="FilterBooks">
+                        <form class="card-body" action="Index">
                             <div class="form-group">
-                                <label>Condition</label> 
-                                <select class="custom-select" name="condition">
+                                <label>From City</label> 
+                                <select class="custom-select" name="fromCity">
                                     <option value="">Select</option>
-                                    <option value="new">New</option>
-                                    <option value="fail">Fair</option>
-                                    <option value="poor">Poor</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Melbourne">Melbourne</option>
+                                    <option value="Cairns">Cairns</option>
+                                    <option value="Gold Coast">Gold Coast</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Status</label> 
-                                <select class="custom-select" name="status">
+                                <label>To City</label> 
+                                <select class="custom-select" name="toCity">
                                     <option value="">Select</option>
-                                    <option value="reserved">Reserved</option>
-                                    <option value="unreserved">Unreserved</option>
+                                    <option value="Sydney">Sydney</option>
+                                    <option value="Melbourne">Melbourne</option>
+                                    <option value="Cairns">Cairns</option>
+                                    <option value="Gold Coast">Gold Coast</option>
                                 </select>
+                            </div>
+<!--                            <div class="form-group">
+                                <label>Type</label> 
+                                <select class="custom-select" name="type">
+                                    <option value="">Select</option>
+                                    <option value="Economic">Economic</option>
+                                    <option valuve="First class">First class</option>
+                                </select>
+                            </div>-->
+                            <div class="form-group">
+                                <label>Departure</label> 
+                                <input type="date" class="form-control" name="departure">
                             </div>
                             <button class="btn btn-primary btn-block" type="submit">Submit</button>
                         </form>    

@@ -10,7 +10,12 @@ import dao.FlightDao;
 import dto.Flight;
 import dto.User;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -37,12 +42,26 @@ public class Index extends HttpServlet {
             response.sendRedirect("Login");
             return;
         }
-        
+
+        String fromCity = request.getParameter("fromCity");
+        String toCity = request.getParameter("toCity");
+        String type = request.getParameter("type");
+        String departureStr = request.getParameter("departure");
+        Date departure = null;
+        if (departureStr != null && !departureStr.isEmpty()) {
+            try {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+                departure = sdf.parse(departureStr);
+            } catch (ParseException ex) {
+                Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+
         FlightDao flightDao = new FlightDao();
-        List<Flight> flights = flightDao.getAll().getFlights();
-        request.setAttribute("flights",flights);
+        List<Flight> flights = flightDao.searchFlights(fromCity, toCity, type, departure);
+        request.setAttribute("flights", flights);
         request.getRequestDispatcher("WEB-INF/jsp/index.jsp").forward(request, response);
-        
+
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

@@ -36,7 +36,7 @@ public class BookingDao extends BaseDao {
         Flight flight = flightDao.getFlight(flightId);
         double price = flight.getSeatPrice();
         if (type.equals("First class")) {
-            price = flight.getFirstClassSeatsPrice();
+            price = flight.getfirstClassSeatPrice();
             flight.setFirstClassSeats(flight.getFirstClassSeats() - quantity);
         } else {
             flight.setSeats(flight.getSeats() - quantity);
