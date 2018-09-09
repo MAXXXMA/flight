@@ -24,6 +24,10 @@
                 </c:if>
             </h2>
 
+            <c:if test="${not empty param.errorMsg}">
+                <div class="alert alert-danger">${param.errorMsg}</div>
+            </c:if>
+
             <form class="card-body" method="post">
                 <div class="row">
                     <div class="col-6">
