@@ -58,6 +58,16 @@ public class BookingDao extends BaseDao {
         return fillBookings(bookings);
     }
 
+    public List<Booking> getBookingsByFlightId(String flightId) {
+        List<Booking> bookings = new ArrayList<Booking>();
+        for (Booking booking : getAll().getBookings()) {
+            if (booking.getFlightId().equals(flightId)) {
+                bookings.add(booking);
+            }
+        }
+        return fillBookings(bookings);
+    }
+
     public void remove(String bookingId) {
         int index = -1;
         List<Booking> bookings = getAll().getBookings();
@@ -69,8 +79,17 @@ public class BookingDao extends BaseDao {
             }
         }
         if (index != -1) {
+            Booking booking = bookings.get(index);
             bookings.remove(index);
             save(new Bookings(bookings));
+
+            Flight flight = flightDao.getFlight(booking.getFlightId());
+            if (booking.getType().equals("Economic")) {
+                flight.setSeats(flight.getSeats() + booking.getQuantity());
+            } else {
+                flight.setFirstClassSeats(flight.getFirstClassSeats() + booking.getQuantity());
+            }
+            flightDao.update(flight);
         }
 
     }
@@ -85,6 +104,10 @@ public class BookingDao extends BaseDao {
     public void fillBooking(Booking booking) {
         booking.setFlight(flightDao.getFlight(booking.getFlightId()));
         booking.setUser(userDao.getUser(booking.getUserId()));
+    }
+
+    public List<Booking> getAllBookings() {
+        return fillBookings(getAll().getBookings());
     }
 
     /**

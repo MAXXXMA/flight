@@ -69,9 +69,9 @@ public class BootstrapData {
 
         List<Booking> bookings = new ArrayList<Booking>();
 
-        bookings.add(new Booking(flights.get(0).getFlightId(), users.get(0).getUserId(), toDate("2018-09-05 08:00:00"), "normal", 2, flights.get(0).getSeatPrice() * 2));
-        bookings.add(new Booking(flights.get(4).getFlightId(), users.get(0).getUserId(), toDate("2018-09-06 08:00:00"), "normal", 1, flights.get(4).getSeatPrice() * 1));
-        bookings.add(new Booking(flights.get(8).getFlightId(), users.get(0).getUserId(), toDate("2018-09-07 08:00:00"), "normal", 1, flights.get(8).getSeatPrice() * 2));
+        bookings.add(new Booking(flights.get(0).getFlightId(), users.get(0).getUserId(), toDate("2018-09-05 08:00:00"), "Economic", 2, flights.get(0).getSeatPrice() * 2));
+        bookings.add(new Booking(flights.get(4).getFlightId(), users.get(0).getUserId(), toDate("2018-09-06 08:00:00"), "Economic", 1, flights.get(4).getSeatPrice() * 1));
+        bookings.add(new Booking(flights.get(8).getFlightId(), users.get(0).getUserId(), toDate("2018-09-07 08:00:00"), "Economic", 1, flights.get(8).getSeatPrice() * 2));
 
         for(User user: users) {
             userDao.add(user);

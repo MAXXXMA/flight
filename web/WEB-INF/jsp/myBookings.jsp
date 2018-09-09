@@ -47,7 +47,7 @@
                                     <th>Action</th>
                                 </tr>
                                 <tr>
-                                    <th>${booking.flight.flightNumber}</th>
+                                    <th><a href="FlightDetail?flightId=${booking.flight.flightId}">${booking.flight.flightNumber}</a></th>
                                     <th>${booking.flight.fromCity}</th>
                                     <th>${booking.flight.toCity}</th>
                                     <td>

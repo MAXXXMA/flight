@@ -4,30 +4,30 @@
         <email>user1@uts.com</email>
         <password>user1</password>
         <name>Tom</name>
-        <userId>690086b6</userId>
+        <userId>94c56278</userId>
     </user>
     <user>
         <email>user2@uts.com</email>
         <password>user2</password>
         <name>Bob</name>
-        <userId>265e2c62</userId>
+        <userId>bda2a6f5</userId>
     </user>
     <user>
         <email>user3@uts.com</email>
         <password>user3</password>
         <name>Jim</name>
-        <userId>e6ea6f3f</userId>
+        <userId>2ccf4635</userId>
     </user>
     <user>
         <email>user4@uts.com</email>
         <password>user4</password>
         <name>Jerry</name>
-        <userId>20e880f3</userId>
+        <userId>c6a21ec4</userId>
     </user>
     <user>
         <email>user5@uts.com</email>
         <password>user5</password>
         <name>Alice</name>
-        <userId>16caf186</userId>
+        <userId>e3cbbba3</userId>
     </user>
 </users>

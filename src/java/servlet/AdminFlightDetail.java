@@ -6,6 +6,7 @@
 package servlet;
 
 import dao.BaseDao;
+import dao.BookingDao;
 import dao.FlightDao;
 import dto.User;
 import java.io.IOException;
@@ -16,8 +17,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "FlightDetail", urlPatterns = {"/FlightDetail"})
-public class FlightDetail extends HttpServlet {
+@WebServlet(name = "AdminFlightDetail", urlPatterns = {"/AdminFlightDetail"})
+public class AdminFlightDetail extends HttpServlet {
+
+    FlightDao flightDao = new FlightDao();
+    BookingDao bookingDao = new BookingDao();
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,18 +34,18 @@ public class FlightDetail extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        User user = (User) request.getSession().getAttribute("user");
+        User admin = (User) request.getSession().getAttribute("admin");
         BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
-        if (user == null) {
-            response.sendRedirect("Login");
+        if (admin == null) {
+            response.sendRedirect("Admin");
             return;
         }
 
         String flightId = request.getParameter("flightId");
-        FlightDao flightDao = new FlightDao();
 
         request.setAttribute("flight", flightDao.getFlight(flightId));
-        request.getRequestDispatcher("WEB-INF/jsp/flightDetail.jsp").forward(request, response);
+        request.setAttribute("bookings", bookingDao.getBookingsByFlightId(flightId));
+        request.getRequestDispatcher("WEB-INF/jsp/admin/flightDetail.jsp").forward(request, response);
 
     }
 

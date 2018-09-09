@@ -6,7 +6,8 @@
 package servlet;
 
 import dao.BaseDao;
-import dao.FlightDao;
+import dao.BookingDao;
+import dto.Booking;
 import dto.User;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,8 +17,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "FlightDetail", urlPatterns = {"/FlightDetail"})
-public class FlightDetail extends HttpServlet {
+@WebServlet(name = "AdminCancelBooking", urlPatterns = {"/AdminCancelBooking"})
+public class AdminCancelBooking extends HttpServlet {
+
+    BookingDao bookingDao = new BookingDao();
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -30,19 +33,24 @@ public class FlightDetail extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        User user = (User) request.getSession().getAttribute("user");
         BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        User user = (User) request.getSession().getAttribute("admin");
         if (user == null) {
-            response.sendRedirect("Login");
+            response.sendRedirect("Admin");
             return;
         }
 
-        String flightId = request.getParameter("flightId");
-        FlightDao flightDao = new FlightDao();
+        String returnUrl = request.getParameter("returnUrl");
 
-        request.setAttribute("flight", flightDao.getFlight(flightId));
-        request.getRequestDispatcher("WEB-INF/jsp/flightDetail.jsp").forward(request, response);
+        String bookingId = request.getParameter("bookingId");
+        Booking booking = bookingDao.getBooking(bookingId);
+        bookingDao.remove(bookingId);
+        if (returnUrl.equals("flightDetail")) {
+            response.sendRedirect("AdminFlightDetail?flightId=" + booking.getFlightId());
+        } else {
+            response.sendRedirect("AdminBookings");
 
+        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

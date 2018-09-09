@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <flights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flights.xsd">
     <flight>
-        <flightId>254366c0</flightId>
+        <flightId>552f385f</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
@@ -13,7 +13,7 @@
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>dbc8f787</flightId>
+        <flightId>9a0bbf78</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
@@ -25,7 +25,7 @@
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c0621ed9</flightId>
+        <flightId>e3c26a37</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
@@ -37,7 +37,7 @@
         <firstClassSeatPrice>109.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>711a9fa4</flightId>
+        <flightId>c1c24931</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
@@ -49,7 +49,7 @@
         <firstClassSeatPrice>109.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d5712861</flightId>
+        <flightId>b1700d28</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
@@ -61,7 +61,7 @@
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c5be61e5</flightId>
+        <flightId>65c8dd04</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
@@ -73,7 +73,7 @@
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f49820b3</flightId>
+        <flightId>ecf77635</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
@@ -85,7 +85,7 @@
         <firstClassSeatPrice>599.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6120cd79</flightId>
+        <flightId>9cca976f</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
@@ -97,7 +97,7 @@
         <firstClassSeatPrice>599.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c9ae99e6</flightId>
+        <flightId>b3262832</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
@@ -109,7 +109,7 @@
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9803836c</flightId>
+        <flightId>99614228</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
@@ -121,7 +121,7 @@
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e1c5053c</flightId>
+        <flightId>9c62ab48</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
@@ -133,7 +133,7 @@
         <firstClassSeatPrice>499.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>572c7884</flightId>
+        <flightId>caf463df</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
