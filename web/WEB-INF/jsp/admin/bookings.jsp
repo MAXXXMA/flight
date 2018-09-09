@@ -26,6 +26,7 @@
                 <thead>
                     <tr>
                         <th>Booking Id</th>
+                        <th>Created</th>
                         <th>Flight Number</th>
                         <th>From City</th>
                         <th>To City</th>
@@ -42,6 +43,8 @@
                     <c:forEach var="booking" items="${bookings}">
                         <tr>
                             <td>${booking.bookingId}</td>
+                            <td><fmt:formatDate type="both" dateStyle="short" timeStyle="short" value="${booking.created}" />
+                            </td>
                             <td><a href="AdminFlightDetail?flightId=${booking.flight.flightId}">${booking.flight.flightNumber}</a></td>
                             <td>${booking.flight.fromCity}</td>
                             <td>${booking.flight.toCity}</td>
