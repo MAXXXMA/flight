@@ -21,6 +21,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import service.EmailService;
 
 @WebServlet(name = "SignUp", urlPatterns = {"/SignUp"})
 public class SignUp extends HttpServlet {
@@ -95,6 +96,9 @@ public class SignUp extends HttpServlet {
         
         User user = new User(email, password, name);
         userDao.add(user);
+        
+        EmailService.sendFromGMail(new String[]{email}, "Welcome to flight booking system", "Dear " + name +",\n\nYou have successfully registed as our customer.\n\nManagement Team.");
+        
         request.getSession().setAttribute("user", user);
         response.sendRedirect("Index");
 
