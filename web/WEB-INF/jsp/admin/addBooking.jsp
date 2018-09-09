@@ -52,7 +52,7 @@
                             <label>Seat Type</label>
                             <select class="form-control" name="type">
                                 <option value="Economic">Economic</option>
-                                <option valuve="First class">First class</option>
+                                <option value="First class">First class</option>
                             </select>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
 
                         <div class="form-group">
                             <label>Ticket Quantity</label>
-                            <input name="quantity" type="number" min="1" max="20" class="form-control" value="1" required>
+                            <input name="quantity" type="number" min="1" max="200" class="form-control" value="1" required>
                         </div>
                     </div>
 

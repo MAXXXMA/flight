@@ -69,13 +69,13 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <label>Ticket Quantity</label>
-                                    <input name="quantity" type="number" min="1" max="20" class="form-control" value="1" required>
+                                    <input name="quantity" type="number" min="1" max="200" class="form-control" value="1" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Seat Type</label>
                                     <select class="form-control" name="type">
                                         <option value="Economic">Economic ($ ${flight.seatPrice})</option>
-                                        <option valuve="First class">First class ($ ${flight.firstClassSeatPrice})</option>
+                                        <option value="First class">First class ($ ${flight.firstClassSeatPrice})</option>
                                     </select>
                                 </div>
                                 <div class="form-group">

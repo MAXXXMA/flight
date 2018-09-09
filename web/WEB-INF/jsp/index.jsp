@@ -50,7 +50,7 @@
                                 <select class="custom-select" name="type">
                                     <option value="">Select</option>
                                     <option value="Economic">Economic</option>
-                                    <option valuve="First class">First class</option>
+                                    <option value="First class">First class</option>
                                 </select>
                             </div>-->
                             <div class="form-group">
