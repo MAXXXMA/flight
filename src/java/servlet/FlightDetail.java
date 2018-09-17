@@ -32,10 +32,10 @@ public class FlightDetail extends HttpServlet {
             throws ServletException, IOException {
         User user = (User) request.getSession().getAttribute("user");
         BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
-        if (user == null) {
-            response.sendRedirect("Login");
-            return;
-        }
+        // if (user == null) {
+        //     response.sendRedirect("Login");
+        //     return;
+        // }
 
         String flightId = request.getParameter("flightId");
         FlightDao flightDao = new FlightDao();

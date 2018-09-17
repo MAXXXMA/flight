@@ -37,11 +37,11 @@ public class Index extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
-        User user = (User) request.getSession().getAttribute("user");
-        if (user == null) {
-            response.sendRedirect("Login");
-            return;
-        }
+        // User user = (User) request.getSession().getAttribute("user");
+        // if (user == null) {
+        //     response.sendRedirect("Login");
+        //     return;
+        // }
 
         String fromCity = request.getParameter("fromCity");
         String toCity = request.getParameter("toCity");
@@ -57,9 +57,12 @@ public class Index extends HttpServlet {
             }
         }
 
+        boolean searched = fromCity != null || toCity != null || type !=null || departureStr != null;
+
         FlightDao flightDao = new FlightDao();
         List<Flight> flights = flightDao.searchFlights(fromCity, toCity, type, departure);
         request.setAttribute("flights", flights);
+        request.setAttribute("searched", searched);
         request.getRequestDispatcher("WEB-INF/jsp/index.jsp").forward(request, response);
 
     }

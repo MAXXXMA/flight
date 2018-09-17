@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-
+<fmt:setLocale value = "en_AU"/>
 <!DOCTYPE html">
 <html>
     <head>
@@ -59,11 +59,11 @@
                         </div>
                         <div class="form-group">
                             <label>Departure (yyyy-MM-dd HH:mm:ss)</label> 
-                            <input type="input" class="form-control" name="departure" value="<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss"value = "${flight.departureDate}" />" required>
+                            <input type="input" class="form-control" name="departure" value="<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${flight.departureDate}" />" required>
                         </div>
                         <div class="form-group">
                             <label>Arrive (yyyy-MM-dd HH:mm:ss)</label> 
-                            <input type="input" class="form-control" name="arrive" value="<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value = "${flight.departureDate}" />" required>
+                            <input type="input" class="form-control" name="arrive" value="<fmt:formatDate pattern="yyyy-MM-dd HH:mm:ss" value="${flight.departureDate}" />" required>
                         </div>
                     </div>
                     <div class="col-6">
