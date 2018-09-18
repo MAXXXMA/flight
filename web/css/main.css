@@ -1,0 +1,9 @@
+#search-flight-bg {
+    min-height: 20rem;
+    background-image: url(//t3.gstatic.com/images?q=tbn:ANd9GcRtNbuG8bpRkVu8uHsbVty-y0Vri1gPdWoBZwkgZyzX9I3xGiDf);
+}
+
+#search-flight-form {
+    position: relative;
+    top: -4rem;
+}
