@@ -15,45 +15,54 @@
 <body>
     <jsp:include page="header.jsp" />
 
-    <div class="container-fluid">
+    <div id="search-flight-bg" class="searched-${searched}"></div>
 
-        <div id="search-flight-bg"></div>
-
-        <form class="card-body" action="Index" onsubmit="return validateForm()" id="search-flight-form">
-            <div class="row">
-                <div class="col-4">
-                    <div class="form-group">
-                        <label>From City</label>
-                        <select class="custom-select" name="fromCity">
-                            <option value="">Select</option>
-                            <option value="Sydney" ${param.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option>
-                            <option value="Melbourne" ${param.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
-                            <option value="Cairns" ${param.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
-                            <option value="Gold Coast" ${param.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
-                                Coast</option>
-                        </select>
+    <div class="container">
+        <form action="Index" onsubmit="return validateForm()">
+            <div class="text-white p-3 shadow-lg rounded" id="search-flight-form">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>From City</label>
+                            <select class="custom-select" name="fromCity">
+                                <option value="">Select</option>
+                                <option value="Sydney" ${param.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option>
+                                <option value="Melbourne" ${param.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Cairns" ${param.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
+                                <option value="Gold Coast" ${param.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
+                                    Coast</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="form-group">
-                        <label>To City</label>
-                        <select class="custom-select" name="toCity">
-                            <option value="">Select</option>
-                            <option value="Sydney" ${param.toCity=='Sydney' ? 'selected' : '' }>Sydney</option>
-                            <option value="Melbourne" ${param.toCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
-                            <option value="Cairns" ${param.toCity=='Cairns' ? 'selected' : '' }>Cairns</option>
-                            <option value="Gold Coast" ${param.toCity=='Gold Coast' ? 'selected' : '' }>Gold Coast</option>
-                        </select>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>To City</label>
+                            <select class="custom-select" name="toCity">
+                                <option value="">Select</option>
+                                <option value="Sydney" ${param.toCity=='Sydney' ? 'selected' : '' }>Sydney</option>
+                                <option value="Melbourne" ${param.toCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Cairns" ${param.toCity=='Cairns' ? 'selected' : '' }>Cairns</option>
+                                <option value="Gold Coast" ${param.toCity=='Gold Coast' ? 'selected' : '' }>Gold Coast</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="form-group">
-                        <label>Departure</label>
-                        <input type="date" class="form-control" name="departure" value="${param.departure}">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label>Departure</label>
+                            <input type="date" class="form-control" name="departure" value="${param.departure}">
+                        </div>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary btn-block" type="submit">Submit</button>
+            <div class="row" id="search-button-wrapper">
+                <div class="col-4 offset-4">
+                    <button class="btn btn-success btn-block shadow" type="submit">
+                        <i class="fas fa-search mr-1"></i>
+                        Search
+                    </button>
+                </div>
+            </div>
+
         </form>
         <br>
 
@@ -96,9 +105,17 @@
 
     <script>
         function validateForm() {
-            var fromCity = $('input[name="fromCity"]').val();
-            var toCity = $('input[name="toCity"]').val();
-            if (fromCity == toCity && fromCity != '') {
+            var fromCity = $('[name="fromCity"]').val();
+            var toCity = $('[name="toCity"]').val();
+            if (!fromCity || !toCity) {
+                swal({
+                    type: 'error',
+                    title: 'Oops...',
+                    text: 'Please specify either a from city or to city.',
+                })
+                return false;
+            }
+            if (fromCity == toCity && fromCity) {
                 swal({
                     type: 'error',
                     title: 'Oops...',

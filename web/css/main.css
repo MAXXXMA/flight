@@ -1,9 +1,26 @@
 #search-flight-bg {
-    min-height: 20rem;
-    background-image: url(//t3.gstatic.com/images?q=tbn:ANd9GcRtNbuG8bpRkVu8uHsbVty-y0Vri1gPdWoBZwkgZyzX9I3xGiDf);
+    height: 20rem;
+    background-image: url("//t1.gstatic.com/images?q=tbn:ANd9GcSuvMclPy56lm4XnQow_hj0aIygbDex5L4YptYgZnKwEzsCTc8r");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#search-flight-bg.searched-true {
+    height: 10rem;
 }
 
 #search-flight-form {
-    position: relative;
-    top: -4rem;
+    margin-top: -4rem;
+    background-color: #002B36;
+}
+
+#search-button-wrapper {
+    margin-top: -1rem;
+}
+
+#search-button-wrapper .btn {
+    border-radius: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
