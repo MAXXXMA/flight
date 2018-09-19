@@ -1,3 +1,7 @@
+a {
+    cursor: pointer;
+}
+
 body {
     background-color: #efefef;
 }
@@ -36,10 +40,62 @@ body {
 .flight-list .flight-list-item {
     background-color: #fff;
     border-bottom: 1px solid #eee;
-    padding: 0.5rem 1rem;
+    padding: 1.25rem 2rem;
+    transition: all 0.2s ease-in-out;
 }
 
 .flight-list .flight-list-item .flight-logo {
     width: 3rem;
     height: 3rem;
+}
+
+.flight-list .flight-list-item .v-center {
+    position: relative;
+    top: 1rem;
+}
+
+.flight-list .flight-list-item .expand-btn {
+    padding: 0.5rem 0;
+}
+
+.flight-list .flight-list-item .expand-btn i {
+    transition: all 0.3s ease-in-out;
+}
+
+.flight-list .flight-list-item.active {
+    margin-bottom: 0.75rem;
+}
+
+.flight-list .flight-list-item.active .expand-btn i {
+    transform: rotate(-180deg);
+}
+
+.flight-list .flight-list-item.active .flight-list-item-detail {
+    /* display: block; */
+    max-height: 7rem;
+    min-height: 7rem;
+    background: #fff;
+    border-top-color: #eee;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.flight-list .flight-list-item .flight-list-item-detail {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -2rem 0;
+    padding: 0 2rem 0;
+    border-top: 1px solid transparent;
+    max-height: 0;
+    min-height: 0;
+    transition: all 0.3s ease-in-out;
+    /* display: none; */
+}
+
+.flight-list .flight-list-item .flight-list-item-detail .dot-img {
+    background: url(//www.gstatic.com/flights/app/1x/dotted_flight_80dp.png) no-repeat 0 0;
+    height: 80px;
+    left: 68px;
+    position: absolute;
+    width: 12px;
 }

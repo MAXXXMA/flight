@@ -1,2160 +1,2160 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <flights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="flights.xsd">
     <flight>
-        <flightId>d904c418</flightId>
+        <flightId>ab5591f1</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-21T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>14d4dd1b</flightId>
+        <flightId>eb37d0d6</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-21T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7caad237</flightId>
+        <flightId>a38408c7</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>14e2fea0</flightId>
+        <flightId>fb3da5d6</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-21T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5cd37daa</flightId>
+        <flightId>1db4ec1f</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-21T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>71904c89</flightId>
+        <flightId>cdc01cea</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-21T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-21T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-21T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>026d727c</flightId>
+        <flightId>c4706cf2</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-22T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8d8be05e</flightId>
+        <flightId>f08cdae4</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-22T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>95427810</flightId>
+        <flightId>810e79cc</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9e7634ba</flightId>
+        <flightId>6be98baa</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-22T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>1dee7fd1</flightId>
+        <flightId>dd1c718c</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-22T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6fb4a79a</flightId>
+        <flightId>c2198fc3</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-22T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-22T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-22T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f2eaa215</flightId>
+        <flightId>a28fb4b0</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-23T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d94fd487</flightId>
+        <flightId>a2fe1bf0</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-23T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d0c1052f</flightId>
+        <flightId>274a49ea</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-23T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>98bef1c4</flightId>
+        <flightId>f6afa615</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-23T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8ec11b98</flightId>
+        <flightId>a48d080f</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-23T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>852da98c</flightId>
+        <flightId>bb5440e3</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-23T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-23T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-23T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>dea39ed2</flightId>
+        <flightId>f0c88857</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-24T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e8cb998a</flightId>
+        <flightId>2fe87004</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-24T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>fec4b755</flightId>
+        <flightId>98d1635b</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-24T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d371fae5</flightId>
+        <flightId>8ff83794</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-24T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5425c66b</flightId>
+        <flightId>e7f86825</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-24T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7bdb88dc</flightId>
+        <flightId>1e9297e1</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-24T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-24T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-24T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ee2378dd</flightId>
+        <flightId>26eccb5d</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-25T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e713365a</flightId>
+        <flightId>9728cc19</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-25T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8d166428</flightId>
+        <flightId>b3f0b106</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-25T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>3d80f2c8</flightId>
+        <flightId>fc7fd55a</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-25T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a405a387</flightId>
+        <flightId>5af48f80</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-25T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>453b80d2</flightId>
+        <flightId>b66b24b8</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-25T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-25T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-25T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5770be20</flightId>
+        <flightId>e2ef4e6a</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-26T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b7fcd012</flightId>
+        <flightId>58bd2ca9</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-26T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>4c032f44</flightId>
+        <flightId>ba37216d</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-26T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9db95e50</flightId>
+        <flightId>4a2490de</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-26T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>71dc6a2d</flightId>
+        <flightId>98bfc994</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-26T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e4b0d280</flightId>
+        <flightId>24f4768d</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-26T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-26T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-26T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5d4cd3b4</flightId>
+        <flightId>5c8a140e</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-27T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8ce9b20f</flightId>
+        <flightId>367c6474</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-27T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0a1dee9e</flightId>
+        <flightId>d9007c2c</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-27T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>173e7242</flightId>
+        <flightId>0a0ef466</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-27T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9ec78f42</flightId>
+        <flightId>9f74361b</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-27T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>fef0f983</flightId>
+        <flightId>3ebfaad3</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-27T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-27T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-27T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ce818a0e</flightId>
+        <flightId>e5652552</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-28T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5d8031bb</flightId>
+        <flightId>06da73fa</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-28T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ae37a15b</flightId>
+        <flightId>1b6dfb1b</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-28T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>49c73883</flightId>
+        <flightId>a23f169e</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-28T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b2311914</flightId>
+        <flightId>f0184f3e</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-28T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7b2cdffa</flightId>
+        <flightId>1021fc0a</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-28T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-28T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-28T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d46f90d2</flightId>
+        <flightId>48c67144</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-29T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6c22150d</flightId>
+        <flightId>ad34495b</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-29T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0f081d31</flightId>
+        <flightId>582d01da</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-29T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>2393f90c</flightId>
+        <flightId>8abd5d36</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-29T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c99b7f1b</flightId>
+        <flightId>e4973427</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-29T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>22661473</flightId>
+        <flightId>67141c5a</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-29T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-29T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-29T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f49a5b5f</flightId>
+        <flightId>f3caf063</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-09-30T08:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5ed7d335</flightId>
+        <flightId>2339c5a6</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-30T13:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0dc4b31d</flightId>
+        <flightId>a15baac3</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-09-30T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>de7114fd</flightId>
+        <flightId>d9d93cf8</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-30T18:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>259192a2</flightId>
+        <flightId>1d621d9b</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-09-30T11:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7489d542</flightId>
+        <flightId>cb4d2ca0</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-09-30T14:00:00+10:00</departureDate>
-        <arriveDate>2018-09-30T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-09-30T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a790d630</flightId>
+        <flightId>4454f56e</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-01T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0d975a18</flightId>
+        <flightId>cf6ef6b8</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-01T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>889b28ae</flightId>
+        <flightId>caa6daf2</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-01T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e3a175d7</flightId>
+        <flightId>39b7cfe0</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-01T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>20c668d2</flightId>
+        <flightId>ad4e9776</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-01T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f9104dad</flightId>
+        <flightId>7dcf46a7</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-01T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-01T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-01T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>baa8020c</flightId>
+        <flightId>6c3bd624</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-02T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>3d984ff5</flightId>
+        <flightId>0e27a85a</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-02T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>644d07b5</flightId>
+        <flightId>373976e8</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-02T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0f577a37</flightId>
+        <flightId>74ac82a7</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-02T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c7afdef6</flightId>
+        <flightId>ad02f741</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-02T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ea2b848b</flightId>
+        <flightId>6a016fe9</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-02T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-02T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-02T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>13d5fe05</flightId>
+        <flightId>f367e0cb</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-03T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ca43c091</flightId>
+        <flightId>ba91ab51</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-03T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f489764e</flightId>
+        <flightId>2a81c3e2</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-03T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a72b777e</flightId>
+        <flightId>aed30bc4</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-03T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>44534699</flightId>
+        <flightId>9ba6fbd4</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-03T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>2efe3a74</flightId>
+        <flightId>51535993</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-03T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-03T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-03T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0b5377d0</flightId>
+        <flightId>3b85461e</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-04T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>03f5ce0b</flightId>
+        <flightId>ab365dba</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-04T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>46a467f2</flightId>
+        <flightId>16a92ee1</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-04T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5f898486</flightId>
+        <flightId>a3c2f714</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-04T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9eafd8a7</flightId>
+        <flightId>a9c50048</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-04T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8ce8d991</flightId>
+        <flightId>226f35c4</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-04T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-04T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-04T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0a9cae97</flightId>
+        <flightId>024fc123</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-05T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e03caea6</flightId>
+        <flightId>6018c1b9</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-05T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>54041d85</flightId>
+        <flightId>189ff692</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-05T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a260b373</flightId>
+        <flightId>3b0f1861</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-05T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c3932801</flightId>
+        <flightId>812aee33</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-05T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ec4ae3a2</flightId>
+        <flightId>f208d200</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-05T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-05T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-05T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>bf21a9da</flightId>
+        <flightId>57ceb175</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-06T08:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T10:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T10:30:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>4d44cec5</flightId>
+        <flightId>5cc8c3d1</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-06T13:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T15:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T15:40:00+10:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a0a59b4f</flightId>
+        <flightId>4b76e1f7</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-06T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T17:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T17:20:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a0da5527</flightId>
+        <flightId>a661ae8d</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-06T18:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T21:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T21:10:00+10:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>19889e86</flightId>
+        <flightId>1d549dbd</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-06T11:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T13:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T13:15:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a87a21bd</flightId>
+        <flightId>d46abd6d</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-06T14:00:00+10:00</departureDate>
-        <arriveDate>2018-10-06T16:00:00+10:00</arriveDate>
+        <arriveDate>2018-10-06T16:20:00+10:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b6b6a57e</flightId>
+        <flightId>0def99df</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-07T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c573d2e7</flightId>
+        <flightId>574f59de</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-07T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>438c1bc4</flightId>
+        <flightId>5a55c212</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-07T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ce7d54e1</flightId>
+        <flightId>09c3995c</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-07T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b0f5e43c</flightId>
+        <flightId>1957c031</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-07T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>87a33419</flightId>
+        <flightId>4ecc4e14</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-07T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-07T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-07T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d8fa9027</flightId>
+        <flightId>0fb5fc52</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-08T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e87f346c</flightId>
+        <flightId>ccc636c2</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-08T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>714127db</flightId>
+        <flightId>7d4f9d43</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-08T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f2dcdda0</flightId>
+        <flightId>7944341b</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-08T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>73f124af</flightId>
+        <flightId>3587117c</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-08T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>96fd23be</flightId>
+        <flightId>3131f678</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-08T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-08T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-08T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a0a3a720</flightId>
+        <flightId>22176e8b</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-09T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6385e5b5</flightId>
+        <flightId>28f9c6f3</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-09T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5bbecd9a</flightId>
+        <flightId>9f61485e</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-09T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e1df39bc</flightId>
+        <flightId>ab089d9a</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-09T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>3248b3f2</flightId>
+        <flightId>61f4791d</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-09T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a69a01d2</flightId>
+        <flightId>6e5b7240</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-09T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-09T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-09T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>1596417b</flightId>
+        <flightId>09daebfa</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-10T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d6438688</flightId>
+        <flightId>2e4aa9a4</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-10T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a67d0e45</flightId>
+        <flightId>fb559efd</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-10T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b2e11c07</flightId>
+        <flightId>63b9e9ea</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-10T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>66ed95a5</flightId>
+        <flightId>dd92352b</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-10T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a98471bd</flightId>
+        <flightId>96b23293</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-10T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-10T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-10T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>ab4154f2</flightId>
+        <flightId>08673932</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-11T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7127e6a5</flightId>
+        <flightId>963996eb</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-11T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c866c058</flightId>
+        <flightId>55eb3e63</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-11T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f2a8747f</flightId>
+        <flightId>eb3df2db</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-11T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d4e00d62</flightId>
+        <flightId>207d2f80</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-11T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>81d269c1</flightId>
+        <flightId>35a85ae9</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-11T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-11T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-11T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>3201c266</flightId>
+        <flightId>77177024</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-12T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5fe70c69</flightId>
+        <flightId>33ec7f78</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-12T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>24e46cc7</flightId>
+        <flightId>6a03c3f0</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-12T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>757b903d</flightId>
+        <flightId>21df758c</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-12T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>032d4df6</flightId>
+        <flightId>14507a8f</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-12T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>cc2f504c</flightId>
+        <flightId>bc703b89</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-12T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-12T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-12T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f6a55015</flightId>
+        <flightId>e2a16ae8</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-13T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>2e8de451</flightId>
+        <flightId>c3ae6027</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-13T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d117931c</flightId>
+        <flightId>1df03930</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-13T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>faa6811c</flightId>
+        <flightId>6133bd91</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-13T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>1a4778cf</flightId>
+        <flightId>0eafb174</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-13T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>f5e9d855</flightId>
+        <flightId>6fd01b4d</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-13T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-13T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-13T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>61014c1e</flightId>
+        <flightId>0b6b4743</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-14T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>9e010220</flightId>
+        <flightId>bd9c004b</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-14T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6e19f2ed</flightId>
+        <flightId>acc0b088</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-14T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7a13f594</flightId>
+        <flightId>8068606f</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-14T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>a3c05b3a</flightId>
+        <flightId>a9c14cce</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-14T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>e1524a39</flightId>
+        <flightId>a3e97344</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-14T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-14T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-14T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5a911b7c</flightId>
+        <flightId>0a0a16a6</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-15T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>1712bb6a</flightId>
+        <flightId>3a50b932</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-15T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0acb2c8c</flightId>
+        <flightId>a76524c3</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-15T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>982a803b</flightId>
+        <flightId>37cb3cf6</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-15T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c9d70e7d</flightId>
+        <flightId>9c9f7c57</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-15T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>4487965e</flightId>
+        <flightId>6c99d4de</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-15T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-15T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-15T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>22dd82bd</flightId>
+        <flightId>159aaa53</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-16T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>0eafed6e</flightId>
+        <flightId>7f308bc0</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-16T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c47f5a63</flightId>
+        <flightId>90abc3ec</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-16T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>cd385404</flightId>
+        <flightId>2da21ee9</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-16T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7b4040d0</flightId>
+        <flightId>b049c3ad</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-16T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b169990f</flightId>
+        <flightId>08f65a25</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-16T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-16T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-16T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>323ec81b</flightId>
+        <flightId>084e7c12</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-17T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d28fcc5e</flightId>
+        <flightId>c9578baf</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-17T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>df811ad8</flightId>
+        <flightId>ebd348da</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-17T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5b97bffc</flightId>
+        <flightId>6a4c4712</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-17T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>eeeb182e</flightId>
+        <flightId>b93ad7fa</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-17T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>94d820d9</flightId>
+        <flightId>1d41c1e9</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-17T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-17T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-17T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>6bfdeb27</flightId>
+        <flightId>23db68f6</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-18T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>b6c7811c</flightId>
+        <flightId>a8f1a819</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-18T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d8a5c7d2</flightId>
+        <flightId>84f62946</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-18T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>82124f82</flightId>
+        <flightId>c971c102</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-18T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>334b9009</flightId>
+        <flightId>1fae02b5</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-18T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>06a64a8c</flightId>
+        <flightId>0f28f137</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-18T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-18T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-18T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>fd9f809b</flightId>
+        <flightId>7f0fdf3a</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-19T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>5b49ee5f</flightId>
+        <flightId>5dc21e0d</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-19T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>3062e50e</flightId>
+        <flightId>c8f81a7e</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-19T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>616e9100</flightId>
+        <flightId>47c1524e</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-19T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d174643b</flightId>
+        <flightId>e6fc8768</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-19T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>899dcd22</flightId>
+        <flightId>4566bda7</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-19T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-19T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-19T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>1b711d51</flightId>
+        <flightId>c716904d</flightId>
         <flightNumber>QF101</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Melbourne</toCity>
         <departureDate>2018-10-20T08:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T10:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T10:30:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>d8d8390c</flightId>
+        <flightId>87c8a653</flightId>
         <flightNumber>QF102</flightNumber>
         <fromCity>Melbourne</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-20T13:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T15:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T15:40:00+11:00</arriveDate>
         <seats>100</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>
         <firstClassSeatPrice>199.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>c20ae877</flightId>
+        <flightId>a0ba0b76</flightId>
         <flightNumber>QF201</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Cairns</toCity>
         <departureDate>2018-10-20T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T17:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T17:20:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>7a3f1cd8</flightId>
+        <flightId>6c968620</flightId>
         <flightNumber>QF202</flightNumber>
         <fromCity>Cairns</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-20T18:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T21:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T21:10:00+11:00</arriveDate>
         <seats>80</seats>
         <firstClassSeats>10</firstClassSeats>
         <seatPrice>199.0</seatPrice>
         <firstClassSeatPrice>399.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>71811a7c</flightId>
+        <flightId>46426bee</flightId>
         <flightNumber>QF301</flightNumber>
         <fromCity>Sydney</fromCity>
         <toCity>Gold Coast</toCity>
         <departureDate>2018-10-20T11:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T13:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T13:15:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>89.0</seatPrice>
         <firstClassSeatPrice>149.0</firstClassSeatPrice>
     </flight>
     <flight>
-        <flightId>8a9943f9</flightId>
+        <flightId>4a0cce3e</flightId>
         <flightNumber>QF302</flightNumber>
         <fromCity>Gold Coast</fromCity>
         <toCity>Sydney</toCity>
         <departureDate>2018-10-20T14:00:00+11:00</departureDate>
-        <arriveDate>2018-10-20T16:00:00+11:00</arriveDate>
+        <arriveDate>2018-10-20T16:20:00+11:00</arriveDate>
         <seats>60</seats>
         <firstClassSeats>20</firstClassSeats>
         <seatPrice>99.0</seatPrice>

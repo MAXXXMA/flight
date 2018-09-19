@@ -47,7 +47,7 @@
                 </c:if>
 
             <c:if test="${empty sessionScope.admin}">
-                <li class="nav-item"><a class="nav-link" href="AdminSignUp">Sign up</a></li>
+                <li class="nav-item"><a class="nav-link" href="AdminLogin">Login</a></li>
                 </c:if>
         </ul>
     </div>

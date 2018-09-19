@@ -67,12 +67,12 @@ public class BootstrapData {
         while (calendar.before(endCalendar)) {
             Date now = calendar.getTime();
             String day = formatter.format(now);
-            flights.add(new Flight("QF101", "Sydney", "Melbourne", toDate(day + " 08:00:00"), toDate(day + " 10:00:00"), 100, 20, 99, 199));
-            flights.add(new Flight("QF102", "Melbourne", "Sydney", toDate(day + " 13:00:00"), toDate(day + " 15:00:00"), 100, 20, 99, 199));
-            flights.add(new Flight("QF201", "Sydney", "Cairns", toDate(day + " 14:00:00"), toDate(day + " 17:00:00"), 80, 10, 199, 399));
-            flights.add(new Flight("QF202", "Cairns", "Sydney", toDate(day + " 18:00:00"), toDate(day + " 21:00:00"), 80, 10, 199, 399));
-            flights.add(new Flight("QF301", "Sydney", "Gold Coast", toDate(day + " 11:00:00"), toDate(day + " 13:00:00"), 60, 20, 89, 149));
-            flights.add(new Flight("QF302", "Gold Coast", "Sydney", toDate(day + " 14:00:00"), toDate(day + " 16:00:00"), 60, 20, 99, 199));
+            flights.add(new Flight("QF101", "Sydney", "Melbourne", toDate(day + " 08:00:00"), toDate(day + " 10:30:00"), 100, 20, 99, 199));
+            flights.add(new Flight("QF102", "Melbourne", "Sydney", toDate(day + " 13:00:00"), toDate(day + " 15:40:00"), 100, 20, 99, 199));
+            flights.add(new Flight("QF201", "Sydney", "Cairns", toDate(day + " 14:00:00"), toDate(day + " 17:20:00"), 80, 10, 199, 399));
+            flights.add(new Flight("QF202", "Cairns", "Sydney", toDate(day + " 18:00:00"), toDate(day + " 21:10:00"), 80, 10, 199, 399));
+            flights.add(new Flight("QF301", "Sydney", "Gold Coast", toDate(day + " 11:00:00"), toDate(day + " 13:15:00"), 60, 20, 89, 149));
+            flights.add(new Flight("QF302", "Gold Coast", "Sydney", toDate(day + " 14:00:00"), toDate(day + " 16:20:00"), 60, 20, 99, 199));
 
             calendar.add(Calendar.DATE, 1);
         }
