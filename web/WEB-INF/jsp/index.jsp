@@ -121,6 +121,10 @@
 
 
         <c:if test="${searched}">
+            <c:if test="${empty flights}">
+                <p class="text-center">Oops, we don't have such flight</p>
+            </c:if>
+
             <div class="flight-list animated fadeInUp">
                 <c:forEach var="flight" items="${flights}">
                     <div class="flight-list-item">
