@@ -56,8 +56,8 @@ public class BootstrapData {
         List<Flight> flights = new ArrayList<Flight>();
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-        Date start = formatter.parse("2018-09-21");
-        Date end = formatter.parse("2018-10-21");
+        Date start = formatter.parse("2018-09-15");
+        Date end = formatter.parse("2018-12-15");
 
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(start);
