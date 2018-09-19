@@ -67,47 +67,36 @@
         <br>
 
         <c:if test="${searched}">
-
-            <table class="table table-bordered data-table">
-                <thead>
-                    <tr>
-                        <th>Flight Number</th>
-                        <th>From City</th>
-                        <th>To City</th>
-                        <th>Departure</th>
-                        <th>Arrive</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <c:forEach var="flight" items="${flights}">
-                        <tr>
-                            <td>${flight.flightNumber}</td>
-                            <td>${flight.fromCity}</td>
-                            <td>${flight.toCity}</td>
-                            <td>
+            <div class="flight-list animated fadeInUp">
+                <c:forEach var="flight" items="${flights}">
+                    <div class="flight-list-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="flight-logo" src="./images/QF.png" class="img-thumbnail">
+                            </div>
+                            <div class="col-3">${flight.flightNumber}</div>
+                            <div class="col-3">${flight.fromCity}</div>
+                            <div class="col-3">${flight.toCity}</div>
+                            <div class="col-3">
+                                ${flight.getDuration()}
                                 <fmt:formatDate type="both" dateStyle="short" timeStyle="short" value="${flight.departureDate}" />
-                            </td>
-                            <td>
                                 <fmt:formatDate type="both" dateStyle="short" timeStyle="short" value="${flight.arriveDate}" />
-                            </td>
-                            <td><a href="FlightDetail?flightId=${flight.flightId}" class="btn btn-primary">Detail</a></td>
-                        </tr>
-                    </c:forEach>
-                </tbody>
-            </table>
+                                <a href="FlightDetail?flightId=${flight.flightId}" class="btn btn-primary">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </c:forEach>
+            </div>
         </c:if>
-
     </div>
 
-    <br>
     <br>
 
     <script>
         function validateForm() {
             var fromCity = $('[name="fromCity"]').val();
             var toCity = $('[name="toCity"]').val();
-            if (!fromCity || !toCity) {
+            if (!fromCity && !toCity) {
                 swal({
                     type: 'error',
                     title: 'Oops...',

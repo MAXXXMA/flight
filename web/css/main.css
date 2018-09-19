@@ -1,3 +1,7 @@
+body {
+    background-color: #efefef;
+}
+
 #search-flight-bg {
     height: 20rem;
     background-image: url("//t1.gstatic.com/images?q=tbn:ANd9GcSuvMclPy56lm4XnQow_hj0aIygbDex5L4YptYgZnKwEzsCTc8r");
@@ -23,4 +27,19 @@
     border-radius: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.flight-list {
+    border: 1px solid #eee;
+}
+
+.flight-list .flight-list-item {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem 1rem;
+}
+
+.flight-list .flight-list-item .flight-logo {
+    width: 3rem;
+    height: 3rem;
 }
