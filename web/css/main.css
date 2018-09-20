@@ -14,6 +14,15 @@ body {
     background-size: 100%;
 }
 
+#flight-detail-bg {
+    height: 20rem;
+    background-image: url("https://s3-us-west-2.amazonaws.com/drupal-assets/legacy/styles/hero_1440x530/s3-files/images-hero/offer/Flight-Deals-1440x530.jpg?itok=l1l210vD");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 #search-flight-bg.searched-true {
     height: 10rem;
 }

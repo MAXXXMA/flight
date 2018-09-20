@@ -15,7 +15,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.29/sweetalert2.all.min.js"></script>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
@@ -46,7 +46,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav ">
             <c:if test="${not empty sessionScope.user}">
-                <li class="nav-item"><span style="position:relative; top: 8px">Welcome ${sessionScope.user.name}</span></li>
+                <li class="nav-item text-white"><span style="position:relative; top: 8px">Welcome ${sessionScope.user.name}</span></li>
                 <li class="nav-item"><a class="nav-link" href="MyBookings">My Booked Flights</a></li>
                 <li class="nav-item"><a class="nav-link" href="Logout">Logout</a></li>
                 </c:if>
