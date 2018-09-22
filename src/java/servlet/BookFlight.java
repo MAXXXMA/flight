@@ -18,6 +18,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import service.EmailService;
 
 @WebServlet(name = "BookFlight", urlPatterns = {"/BookFlight"})
 public class BookFlight extends HttpServlet {
@@ -61,6 +62,7 @@ public class BookFlight extends HttpServlet {
         }
 
         Booking booking = bookingDao.createBooking(flightId, user.getUserId(), quantity, type);
+        EmailService.sendMail(user.getEmail(), "You have booked successful", "Hey " + user.getName() + ",\n\nYou have just made an successful booking with booking number #" + booking.getBookingId() + ".\n\nManagement Team.");
         request.setAttribute("booking", booking);
         request.getRequestDispatcher("WEB-INF/jsp/bookFlight.jsp").forward(request, response);
 

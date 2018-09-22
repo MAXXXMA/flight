@@ -1,10 +1,8 @@
-
 package service;
 
 import java.util.*;
 import javax.mail.*;
 import javax.mail.internet.*;
-
 
 public class EmailService {
 
@@ -13,6 +11,7 @@ public class EmailService {
     private static String RECIPIENT = "hi.xinyuli@gmail.com";
 
     public static void sendMail(String to, String title, String subject) {
+        sendFromGMail(new String[]{to}, title, subject);
     }
 
     public static void main(String[] args) {
