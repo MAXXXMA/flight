@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/leel/Documents/NetBeansProjects/flight/src/java/bootstrap/BootstrapData.java</file>
-            <file>file:/C:/Users/leel/Documents/NetBeansProjects/flight/web/WEB-INF/data/bookings.xml</file>
-            <file>file:/C:/Users/leel/Documents/NetBeansProjects/flight/web/WEB-INF/data/flights.xml</file>
-            <file>file:/C:/Users/leel/Documents/NetBeansProjects/flight/web/WEB-INF/jsp/login.jsp</file>
-            <file>file:/C:/Users/leel/Documents/NetBeansProjects/flight/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/Users/difeima/Desktop/uts_flight_system/web/WEB-INF/data/flights.xml</file>
+            <file>file:/Users/difeima/Desktop/uts_flight_system/src/java/bootstrap/BootstrapData.java</file>
         </group>
     </open-files>
 </project-private>

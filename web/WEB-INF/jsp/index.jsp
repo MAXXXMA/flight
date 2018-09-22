@@ -26,11 +26,14 @@
                             <label>From City</label>
                             <select class="custom-select" name="fromCity">
                                 <option value="">Select</option>
-                                <option value="Sydney" ${param.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option>
-                                <option value="Melbourne" ${param.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Adelaide" ${param.fromCity=='Adelaide' ? 'selected' : '' }>Adelaide</option>
                                 <option value="Cairns" ${param.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
-                                <option value="Gold Coast" ${param.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
+                                <option value="Darwin" ${param.fromCity=='Darwin' ? 'selected' : '' }>Darwin</option>
+                                 <option value="Gold Coast" ${param.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
                                     Coast</option>
+                                <option value="Melbourne" ${param.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Perth" ${param.fromCity=='Perth' ? 'selected' : '' }>Perth</option>
+                                <option value="Sydney" ${param.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option>   
                             </select>
                         </div>
                     </div>
@@ -39,10 +42,14 @@
                             <label>To City</label>
                             <select class="custom-select" name="toCity">
                                 <option value="">Select</option>
-                                <option value="Sydney" ${param.toCity=='Sydney' ? 'selected' : '' }>Sydney</option>
-                                <option value="Melbourne" ${param.toCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
-                                <option value="Cairns" ${param.toCity=='Cairns' ? 'selected' : '' }>Cairns</option>
-                                <option value="Gold Coast" ${param.toCity=='Gold Coast' ? 'selected' : '' }>Gold Coast</option>
+                                <option value="Adelaide" ${param.fromCity=='Adelaide' ? 'selected' : '' }>Adelaide</option>
+                                <option value="Cairns" ${param.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
+                                <option value="Darwin" ${param.fromCity=='Darwin' ? 'selected' : '' }>Darwin</option>
+                                 <option value="Gold Coast" ${param.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
+                                    Coast</option>
+                                <option value="Melbourne" ${param.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Perth" ${param.fromCity=='Perth' ? 'selected' : '' }>Perth</option>
+                                <option value="Sydney" ${param.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option>   
                             </select>
                         </div>
                     </div>
