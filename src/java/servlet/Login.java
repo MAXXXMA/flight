@@ -47,15 +47,24 @@ public class Login extends HttpServlet {
         BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
         String email = request.getParameter("email");
         String password = request.getParameter("password");
+        String redirectUrl = request.getParameter("redirectUrl");
 
+        if (redirectUrl == null) {
+            redirectUrl = "";
+        }
+        
         UserDao userDao = new UserDao();
-        User user = userDao.getUserByLogin(email, password);        
+        User user = userDao.getUserByLogin(email, password);
         if (user == null) {
-            response.sendRedirect("Login?errorMsg=Invalid email or password");
+            response.sendRedirect("Login?errorMsg=Invalid email or password&redirectUrl="+redirectUrl);
             return;
         } else {
             request.getSession().setAttribute("user", user);
-            response.sendRedirect("Index");
+            if (redirectUrl != null && !redirectUrl.isEmpty()) {
+                response.sendRedirect(redirectUrl);
+            } else {
+                response.sendRedirect("Index");
+            }
         }
     }
 

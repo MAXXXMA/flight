@@ -83,7 +83,7 @@
                         <div class="shadow bg-white">
                             <div class="row">
                                 <div class="col-5">
-                                    <img class="img-fluid" src="//www.gstatic.com/flights/app/runway_1080.png">
+                                    <img class="img-fluid" src="//t0.gstatic.com/images?q=tbn:ANd9GcT37uMaHWc0wOfY3muY-aIOlyXpY67gIZmIll-jroFHQWs5bw4uFbaoctB5HgCEZhQx-wbm7iU">
                                 </div>
                                 <div class="col-7 p-3">
                                     <h4>Melbourne</h4>
@@ -113,7 +113,7 @@
                         <div class="shadow bg-white">
                             <div class="row">
                                 <div class="col-5">
-                                    <img class="img-fluid" src="//www.gstatic.com/flights/app/runway_1080.png">
+                                    <img class="img-fluid" src="//t1.gstatic.com/images?q=tbn:ANd9GcRKx5duZIataHP6FRYNH9E6r_JdwH6HMFAUUczWtezYg18wR0bUbDi1TZ4u2ziHASLUwgXyz8qu">
                                 </div>
                                 <div class="col-7 p-3">
                                     <h4>Gold Coast</h4>
@@ -241,6 +241,17 @@
                 })
                 return false;
             }
+
+            const d = moment(departure);
+            if (d.isBefore(moment())) {
+                swal({
+                    type: 'error',
+                    title: 'Oops...',
+                    text: 'You can only book flight for furture dates',
+                })
+                return false;
+            }
+
             return true;
         }
 
