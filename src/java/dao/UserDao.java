@@ -1,9 +1,25 @@
 package dao;
 
 import dto.User;
-import dto.Users;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class UserDao extends BaseDao {
+
+    private User extractUesr(ResultSet rs) throws SQLException {
+        User user = new User();
+        user.setEmail(rs.getString("email"));
+        user.setUserId(rs.getString("userId"));
+        user.setPassword(rs.getString("password"));
+        user.setName(rs.getString("name"));
+        return user;
+    }
 
     /**
      * verify login
@@ -13,21 +29,40 @@ public class UserDao extends BaseDao {
      * @return
      */
     public User getUserByLogin(String email, String password) {
-        for (User u : getAll().getUsers()) {
-            if (u.getEmail().equals(email) && u.getPassword().equals(password)) {
-                return u;
+        Connection conn = getConnection();
+        User user = null;
+        try {
+            String sql = "select * from User where email = ? and password = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, email);
+            preparedStatement.setString(2, password);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                user = extractUesr(rs);
             }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return null;
+        return user;
     }
 
     public User getUser(String userId) {
-        for (User u : getAll().getUsers()) {
-            if (u.getUserId().equals(userId)) {
-                return u;
+        Connection conn = getConnection();
+        User user = null;
+        try {
+            String sql = "select * from User where userId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, userId);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                user = extractUesr(rs);
             }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return null;
+        return user;
     }
 
     /**
@@ -37,12 +72,21 @@ public class UserDao extends BaseDao {
      * @return
      */
     public User getUserByEmail(String email) {
-        for (User u : getAll().getUsers()) {
-            if (u.getEmail().equals(email)) {
-                return u;
+        Connection conn = getConnection();
+        User user = null;
+        try {
+            String sql = "select * from User where email = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, email);
+            ResultSet rs = preparedStatement.executeQuery();
+            if (rs.next()) {
+                user = extractUesr(rs);
             }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return null;
+        return user;
     }
 
     /**
@@ -51,9 +95,19 @@ public class UserDao extends BaseDao {
      * @param user
      */
     public void add(User user) {
-        Users users = getAll();
-        users.addUser(user);
-        save(users);
+        Connection conn = getConnection();
+        try {
+            String sql = "insert into User values (?, ?, ?, ?)";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, user.getUserId());
+            preparedStatement.setString(2, user.getEmail());
+            preparedStatement.setString(3, user.getPassword());
+            preparedStatement.setString(4, user.getName());
+            preparedStatement.execute();
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     /**
@@ -61,7 +115,20 @@ public class UserDao extends BaseDao {
      *
      * @return
      */
-    public Users getAll() {
-        return (Users) this.get(Users.class);
+    public List<User> getAll() {
+        List<User> users = new ArrayList<User>();
+        Connection conn = getConnection();
+        try {
+            String sql = "select * from User";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                users.add(extractUesr(rs));
+            }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return users;
     }
 }

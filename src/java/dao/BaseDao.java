@@ -1,12 +1,36 @@
 package dao;
 
 import java.io.File;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
 public abstract class BaseDao {
+
+    public final String DB = "flight_system";
+    public final String HOST = "localhost:3306";
+    public final String USERNAME = "root";
+    public final String PASSWORD = "";
+
+    public Connection getConnection() {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Connection conn = null;
+            conn = DriverManager.getConnection("jdbc:mysql://" + HOST + "/" + DB, USERNAME, PASSWORD);
+            return conn;
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(BaseDao.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (SQLException ex) {
+            Logger.getLogger(BaseDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
+    }
 
     public static String folderPath = "./web/WEB-INF/data";
 
@@ -24,7 +48,7 @@ public abstract class BaseDao {
      * read xml into java object
      */
     public Object get(Class neededClass) {
-        String filePath = getXmlFile(neededClass.getSimpleName().toLowerCase()+".xml");
+        String filePath = getXmlFile(neededClass.getSimpleName().toLowerCase() + ".xml");
         JAXBContext jaxbContext;
         try {
             jaxbContext = JAXBContext.newInstance(neededClass);
@@ -40,7 +64,7 @@ public abstract class BaseDao {
      * save any object to xml
      */
     public void save(Object obj) {
-        String filePath = getXmlFile(obj.getClass().getSimpleName().toLowerCase()+".xml");
+        String filePath = getXmlFile(obj.getClass().getSimpleName().toLowerCase() + ".xml");
         JAXBContext jaxbContext;
         try {
             jaxbContext = JAXBContext.newInstance(obj.getClass());

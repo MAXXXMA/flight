@@ -469,9 +469,9 @@ public class BootstrapData {
             flightDao.add(flight);
         }
 
-        for (Booking booking : bookings) {
-            bookingDao.add(booking);
-        }
+//        for (Booking booking : bookings) {
+//            bookingDao.add(booking);
+//        }
 
     }
 }

@@ -40,7 +40,7 @@ public class AdminFlights extends HttpServlet {
             return;
         }
         
-        request.setAttribute("flights", flightDao.getAll().getFlights());
+        request.setAttribute("flights", flightDao.getAll());
         request.getRequestDispatcher("WEB-INF/jsp/admin/flights.jsp").forward(request, response);
     }
 
