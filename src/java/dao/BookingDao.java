@@ -103,48 +103,64 @@ public class BookingDao extends BaseDao {
     }
 
     public List<Booking> getBookingsByUserId(String userId) {
+
         List<Booking> bookings = new ArrayList<Booking>();
-        for (Booking booking : getAll().getBookings()) {
-            if (booking.getUserId().equals(userId)) {
-                bookings.add(booking);
+        Connection conn = getConnection();
+        try {
+            String sql = "select * from Booking where userId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, userId);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                bookings.add(extractBooking(rs));
             }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(BookingDao.class.getName()).log(Level.SEVERE, null, ex);
         }
         return fillBookings(bookings);
     }
 
     public List<Booking> getBookingsByFlightId(String flightId) {
         List<Booking> bookings = new ArrayList<Booking>();
-        for (Booking booking : getAll().getBookings()) {
-            if (booking.getFlightId().equals(flightId)) {
-                bookings.add(booking);
+        Connection conn = getConnection();
+        try {
+            String sql = "select * from Booking where flightId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, flightId);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                bookings.add(extractBooking(rs));
             }
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(BookingDao.class.getName()).log(Level.SEVERE, null, ex);
         }
         return fillBookings(bookings);
     }
 
     public void remove(String bookingId) {
-        int index = -1;
-        List<Booking> bookings = getAll().getBookings();
-        for (int i = 0; i < bookings.size(); i++) {
-            Booking f = bookings.get(i);
-            if (f.getBookingId().equals(bookingId)) {
-                index = i;
-                break;
-            }
-        }
-        if (index != -1) {
-            Booking booking = bookings.get(index);
-            bookings.remove(index);
-            save(new Bookings(bookings));
 
-            Flight flight = flightDao.getFlight(booking.getFlightId());
-            if (booking.getType().equals("Economic")) {
-                flight.setSeats(flight.getSeats() + booking.getQuantity());
-            } else {
-                flight.setFirstClassSeats(flight.getFirstClassSeats() + booking.getQuantity());
-            }
-            flightDao.update(flight);
+        Booking booking = getBooking(bookingId);
+        Connection conn = getConnection();
+        try {
+            String sql = "delete from Booking where bookingId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, bookingId);
+            preparedStatement.execute();
+
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(BookingDao.class.getName()).log(Level.SEVERE, null, ex);
         }
+
+        Flight flight = flightDao.getFlight(booking.getFlightId());
+        if (booking.getType().equals("Economic")) {
+            flight.setSeats(flight.getSeats() + booking.getQuantity());
+        } else {
+            flight.setFirstClassSeats(flight.getFirstClassSeats() + booking.getQuantity());
+        }
+        flightDao.update(flight);
 
     }
 
