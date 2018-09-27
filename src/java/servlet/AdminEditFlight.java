@@ -80,7 +80,6 @@ public class AdminEditFlight extends HttpServlet {
             Date arrive = formatter.parse(arriveStr);
 
             Flight flight = new Flight();
-            flight.setFlightId(flightId);
             flight.setFromCity(fromCity);
             flight.setToCity(toCity);
             flight.setFlightNumber(flightNumber);
@@ -94,6 +93,7 @@ public class AdminEditFlight extends HttpServlet {
             if (flightId == null || flightId.isEmpty()) {
                 flightDao.add(flight);
             } else {
+                flight.setFlightId(flightId);
                 flightDao.update(flight);
             }
             

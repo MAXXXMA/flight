@@ -46,8 +46,8 @@ public class AdminAddBooking extends HttpServlet {
             return;
         }
 
-        request.setAttribute("users", userDao.getAll().getUsers());
-        request.setAttribute("flights", flightDao.getAll().getFlights());
+        request.setAttribute("users", userDao.getAll());
+        request.setAttribute("flights", flightDao.getAll());
         request.getRequestDispatcher("WEB-INF/jsp/admin/addBooking.jsp").forward(request, response);
     }
 
