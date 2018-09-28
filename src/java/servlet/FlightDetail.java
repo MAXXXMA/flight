@@ -31,7 +31,7 @@ public class FlightDetail extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         User user = (User) request.getSession().getAttribute("user");
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         // if (user == null) {
         //     response.sendRedirect("Login");
         //     return;

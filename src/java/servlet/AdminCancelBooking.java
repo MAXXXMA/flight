@@ -33,7 +33,7 @@ public class AdminCancelBooking extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         User user = (User) request.getSession().getAttribute("admin");
         if (user == null) {
             response.sendRedirect("Admin");

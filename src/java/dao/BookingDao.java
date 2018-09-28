@@ -1,7 +1,6 @@
 package dao;
 
 import dto.Booking;
-import dto.Bookings;
 import dto.Flight;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -142,6 +141,9 @@ public class BookingDao extends BaseDao {
     public void remove(String bookingId) {
 
         Booking booking = getBooking(bookingId);
+        if (booking == null) {
+            return;
+        }
         Connection conn = getConnection();
         try {
             String sql = "delete from Booking where bookingId = ?";
@@ -164,14 +166,14 @@ public class BookingDao extends BaseDao {
 
     }
 
-    public List<Booking> fillBookings(List<Booking> bookings) {
+    private List<Booking> fillBookings(List<Booking> bookings) {
         for (Booking b : bookings) {
             fillBooking(b);
         }
         return bookings;
     }
 
-    public void fillBooking(Booking booking) {
+    private void fillBooking(Booking booking) {
         booking.setFlight(flightDao.getFlight(booking.getFlightId()));
         booking.setUser(userDao.getUser(booking.getUserId()));
     }

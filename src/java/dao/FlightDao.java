@@ -1,7 +1,6 @@
 package dao;
 
 import dto.Flight;
-import dto.Flights;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -183,5 +182,20 @@ public class FlightDao extends BaseDao {
             flights.add(flight);
         }
         return flights;
+    }
+    
+    public void remove(String flightId) {
+
+        Connection conn = getConnection();
+        try {
+            String sql = "delete from Flight where flightId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, flightId);
+            preparedStatement.execute();
+
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(FlightDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

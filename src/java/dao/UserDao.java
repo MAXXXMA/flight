@@ -131,4 +131,19 @@ public class UserDao extends BaseDao {
         }
         return users;
     }
+    
+    public void remove(String userId) {
+
+        Connection conn = getConnection();
+        try {
+            String sql = "delete from User where userId = ?";
+            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setString(1, userId);
+            preparedStatement.execute();
+
+            conn.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(UserDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }

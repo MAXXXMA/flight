@@ -35,7 +35,7 @@ public class AdminFlightDetail extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         User admin = (User) request.getSession().getAttribute("admin");
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         if (admin == null) {
             response.sendRedirect("Admin");
             return;

@@ -10,10 +10,7 @@ import dao.FlightDao;
 import dao.UserDao;
 import dto.Booking;
 import dto.Flight;
-import dto.Flights;
-import dto.Bookings;
 import dto.User;
-import dto.Users;
 import java.text.ParseException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
@@ -41,10 +38,6 @@ public class BootstrapData {
         UserDao userDao = new UserDao();
         FlightDao flightDao = new FlightDao();
         BookingDao bookingDao = new BookingDao();
-
-        userDao.save(new Users());
-        flightDao.save(new Flights());
-        bookingDao.save(new Bookings());
 
         List<User> users = new ArrayList<User>();
         users.add(new User("user1@uts.com", "user1", "Tom"));

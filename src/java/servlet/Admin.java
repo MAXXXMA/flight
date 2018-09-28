@@ -29,7 +29,7 @@ public class Admin extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
 
         User admin = (User) request.getSession().getAttribute("admin");
         if (admin == null) {

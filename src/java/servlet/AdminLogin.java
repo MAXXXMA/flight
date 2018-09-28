@@ -30,7 +30,7 @@ public class AdminLogin extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         request.getRequestDispatcher("WEB-INF/jsp/admin/login.jsp").forward(request, response);
     }
 
@@ -45,7 +45,7 @@ public class AdminLogin extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         String username = request.getParameter("email");
         String password = request.getParameter("password");
 

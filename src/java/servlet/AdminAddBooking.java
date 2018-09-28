@@ -39,7 +39,7 @@ public class AdminAddBooking extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         User user = (User) request.getSession().getAttribute("admin");
         if (user == null) {
             response.sendRedirect("Admin");
@@ -62,7 +62,7 @@ public class AdminAddBooking extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        BaseDao.setFolderPath(getServletContext().getRealPath("WEB-INF/data"));
+        
         User user = (User) request.getSession().getAttribute("admin");
         if (user == null) {
             response.sendRedirect("Admin");

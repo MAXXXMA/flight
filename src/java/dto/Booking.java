@@ -30,6 +30,7 @@ public class Booking {
 
     public Booking() {
         this.bookingId = UUID.randomUUID().toString().substring(0, 8);
+        this.created = new Date();
     }
 
     public Booking(String flightId, String userId, Date created, String type, int quantity, double price) {
