@@ -18,9 +18,13 @@ public abstract class BaseDao {
     // public final String USERNAME = "root";
     // public final String PASSWORD = "";
     
-    public final String HOST = "flightsystem.czis7piqcxqi.ap-southeast-2.rds.amazonaws.com:3306";
-    public final String USERNAME = "maxmauts";
-    public final String PASSWORD = "SEP02SEP!";
+//    public final String HOST = "flightsystem.czis7piqcxqi.ap-southeast-2.rds.amazonaws.com:3306";
+//    public final String USERNAME = "maxmauts";
+//    public final String PASSWORD = "SEP02SEP!";
+    
+    public final String HOST = "34.216.133.203:3306";
+    public final String USERNAME = "flightsystem";
+    public final String PASSWORD = "flightsystem";
     
 
     public Connection getConnection() {
