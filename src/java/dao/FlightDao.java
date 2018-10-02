@@ -24,8 +24,8 @@ public class FlightDao extends BaseDao {
         flight.setFirstClassSeats(rs.getInt("firstClassSeats"));
         flight.setSeatPrice(rs.getDouble("seatPrice"));
         flight.setfirstClassSeatPrice(rs.getDouble("firstClassSeatPrice"));
-        flight.setDepartureDate(rs.getDate("departureDate"));
-        flight.setArriveDate(rs.getDate("arriveDate"));
+        flight.setDepartureDate(new Date(rs.getTimestamp("departureDate").getTime()));
+        flight.setArriveDate(new Date(rs.getTimestamp("arriveDate").getTime()));
         return flight;
     }
 

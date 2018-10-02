@@ -30,6 +30,7 @@ public class BookingDao extends BaseDao {
         booking.setFlightId(rs.getString("flightId"));
         booking.setUserId(rs.getString("userId"));
         booking.setCreated(rs.getDate("created"));
+        booking.setCreated(new Date(rs.getTimestamp("created").getTime()));
         booking.setType(rs.getString("type"));
         booking.setQuantity(rs.getInt("quantity"));
         booking.setPrice(rs.getDouble("price"));
