@@ -24,8 +24,8 @@
                 </c:if>
             </h2>
 
-            <c:if test="${not empty param.errorMsg}">
-                <div class="alert alert-danger">${param.errorMsg}</div>
+            <c:if test="${not empty params.errorMsg}">
+                <div class="alert alert-danger">${params.errorMsg}</div>
             </c:if>
 
             <form class="card-body" method="post">
@@ -41,20 +41,28 @@
                             <label>From City</label> 
                             <select class="custom-select" name="fromCity" required>
                                 <option value="">Select</option>
-                                <option value="Sydney" ${flight.fromCity == 'Sydney' ? 'selected' : ''}>Sydney</option>
-                                <option value="Melbourne" ${flight.fromCity == 'Melbourne' ? 'selected' : ''}>Melbourne</option>
-                                <option value="Cairns" ${flight.fromCity == 'Cairns' ? 'selected' : ''}>Cairns</option>
-                                <option value="Gold Coast" ${flight.fromCity == 'Gold Coast' ? 'selected' : ''}>Gold Coast</option>
+                                <option value="Adelaide" ${flight.fromCity=='Adelaide' ? 'selected' : '' }>Adelaide</option>
+                                <option value="Cairns" ${flight.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
+                                <option value="Darwin" ${flight.fromCity=='Darwin' ? 'selected' : '' }>Darwin</option>
+                                <option value="Gold Coast" ${flight.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
+                                    Coast</option>
+                                <option value="Melbourne" ${flight.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Perth" ${flight.fromCity=='Perth' ? 'selected' : '' }>Perth</option>
+                                <option value="Sydney" ${flight.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option> 
                             </select>
                         </div>
                         <div class="form-group">
                             <label>To City</label> 
                             <select class="custom-select" name="toCity" required>
                                 <option value="">Select</option>
-                                <option value="Sydney" ${flight.toCity == 'Sydney' ? 'selected' : ''}>Sydney</option>
-                                <option value="Melbourne" ${flight.toCity == 'Melbourne' ? 'selected' : ''}>Melbourne</option>
-                                <option value="Cairns" ${flight.toCity == 'Cairns' ? 'selected' : ''}>Cairns</option>
-                                <option value="Gold Coast" ${flight.toCity == 'Gold Coast' ? 'selected' : ''}>Gold Coast</option>
+                                <option value="Adelaide" ${flight.fromCity=='Adelaide' ? 'selected' : '' }>Adelaide</option>
+                                <option value="Cairns" ${flight.fromCity=='Cairns' ? 'selected' : '' }>Cairns</option>
+                                <option value="Darwin" ${flight.fromCity=='Darwin' ? 'selected' : '' }>Darwin</option>
+                                <option value="Gold Coast" ${flight.fromCity=='Gold Coast' ? 'selected' : '' }>Gold
+                                    Coast</option>
+                                <option value="Melbourne" ${flight.fromCity=='Melbourne' ? 'selected' : '' }>Melbourne</option>
+                                <option value="Perth" ${flight.fromCity=='Perth' ? 'selected' : '' }>Perth</option>
+                                <option value="Sydney" ${flight.fromCity=='Sydney' ? 'selected' : '' }>Sydney</option> 
                             </select>
                         </div>
                         <div class="form-group">

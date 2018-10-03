@@ -53,7 +53,10 @@
                                     <td>$ ${flight.firstClassSeatPrice}</td>
                                     <td>${flight.seats}</td>
                                     <td>${flight.firstClassSeats}</td>
-                                    <td><a href="AdminFlightDetail?flightId=${flight.flightId}" class="btn btn-primary">Detail</a></td>
+                                    <td>
+                                        <a href="AdminRemoveFlight?flightId=${flight.flightId}" class="btn btn-danger confirm-btn">Delete</a>
+                                        <a href="AdminFlightDetail?flightId=${flight.flightId}" class="btn btn-primary">Detail</a>
+                                    </td>
                                 </tr>
                             </c:forEach>
                         </tbody>
