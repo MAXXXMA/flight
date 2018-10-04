@@ -68,4 +68,26 @@
     nbproject/build-impl.xml file. 
 
     -->
+	<target name="-post-compile-test">
+        	<property name="testReport" value="testreport"/>
+        	<javac srcdir="test" destdir="build/test"  
+                classpath="build/web/WEB-INF/classes/" source="1.8" target="1.8"/>
+        	<delete dir="${testReport}" />
+        	<mkdir dir="${testReport}" />
+         	<junit>
+            		<classpath>
+                		<fileset dir="web/WEB-INF/lib/">
+                    			<include name="**/*.jar"/>
+                		</fileset>
+            		</classpath>
+            		<classpath location="build/test/classes" />
+            		<classpath location="build/web/WEB-INF/classes" />
+            		<batchtest todir="${testReport}">
+                		<formatter type="xml" usefile="true"/>
+                    		<fileset dir="build/test/classes">
+                        		<include name="**/*Test.class"/>
+                    		</fileset>
+            		</batchtest>
+         	</junit>
+    </target>
 </project>
