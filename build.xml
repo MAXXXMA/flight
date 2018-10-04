@@ -74,8 +74,13 @@
         	<delete dir="${testReport}" />
  		<javac srcdir="test" destdir="build/test" source="1.8" target="1.8">
             		<classpath location="build/web/WEB-INF/classes" />
-            		<classpath location="build/web/WEB-INF/lib" />
-        	</javac>
+			<classpath>
+                		<fileset dir="web/WEB-INF/lib/">
+                    			<include name="**/*.jar"/>
+                		</fileset>
+            		</classpath>
+		</javac>
+
         	<mkdir dir="${testReport}" />
          	<junit>
             		<classpath>
