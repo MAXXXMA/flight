@@ -70,7 +70,7 @@
     -->
 	<target name="-post-compile-test">
         	<property name="testReport" value="testreport"/>
-		<mkdir dir="build/test" />
+		<mkdir dir="build/test/classes/dao" />
         	<delete dir="${testReport}" />
  		<javac srcdir="test" destdir="build/test" source="1.8" target="1.8">
             		<classpath location="build/web/WEB-INF/classes" />
