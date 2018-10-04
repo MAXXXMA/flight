@@ -70,7 +70,6 @@
     -->
 	<target name="-post-compile-test">
         	<property name="testReport" value="testreport"/>
-		<mkdir dir="build/test/classes/dao" />
         	<delete dir="${testReport}" />
  		<javac srcdir="test" destdir="build/test" source="1.8" target="1.8">
             		<classpath location="build/web/WEB-INF/classes" />
@@ -88,11 +87,11 @@
                     			<include name="**/*.jar"/>
                 		</fileset>
             		</classpath>
-            		<classpath location="build/test/classes" />
+            		<classpath location="build/test" />
             		<classpath location="build/web/WEB-INF/classes" />
             		<batchtest todir="${testReport}">
                 		<formatter type="xml" usefile="true"/>
-                    		<fileset dir="build/test/classes">
+                    		<fileset dir="build/test">
                         		<include name="**/*Test.class"/>
                     		</fileset>
             		</batchtest>
