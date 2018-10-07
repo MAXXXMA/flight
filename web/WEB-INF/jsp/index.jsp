@@ -75,7 +75,7 @@
                     <div class="col-4 offset-4">
                         <button class="btn btn-success btn-block shadow" type="submit">
                             <i class="fas fa-search mr-1"></i>
-                            Start
+                            Search
                         </button>
                     </div>
                 </div>
